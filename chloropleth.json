@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Victim Reports in Victoria",
+  "width": 800,
+  "height": 600,
+  "projection": {"type": "equirectangular"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/VIC_LGA_POLYGON_SHP.topojson",
+    "format": {"type": "topojson", "feature": "VIC_LGA_POLYGON_SHP"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.ABB_NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
+        },
+        "key": "Local Government Area",
+        "fields": ["Rate per 100,000 population"]
+      }
+    }
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Rate per 100,000 population",
+      "type": "quantitative",
+      "scale": {"type": "threshold", "domain": [2000, 4000, 6000]}
+    }
+  },
+  "config": {}
+}
