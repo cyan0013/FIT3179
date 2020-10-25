@@ -8,12 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
 <body>
+<h1> Victim Report Visualisations for Victoria</h1>
 
-<div id="vis"></div>
+<h2> LGA Map Visualisation </h1>
+<div id="chloropleth"></div>
+
+<h2> Population Pyramid of Reporters  </h1>
+<div id="pyramid"></div>
 
 <script type="text/javascript">
-  var spec = "https://cyan0013.github.io/FIT3179/chloropleth.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  var vis1 = "https://cyan0013.github.io/FIT3179/chloropleth.json";
+  vegaEmbed('#chloropleth', vis1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var vis2 = "https://raw.githubusercontent.com/cyan0013/FIT3179/master/interact1.json";
+  vegaEmbed('#pyramid', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
