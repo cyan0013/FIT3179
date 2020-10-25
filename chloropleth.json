@@ -23,6 +23,7 @@
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
+      "title": "Rate per 100,000",
       "field": "Rateper100,000population",
       "type": "quantitative",
       "scale": {"type": "threshold", "domain": [2000, 4000, 6000]}
