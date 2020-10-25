@@ -1,0 +1,112 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Age pyramid",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/age_gender.csv"
+  },
+  "params": [
+    {
+      "name": "offence_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "A Crimes against the person",
+          "B Property and deception offences",
+          "C Other offences"
+        ],
+        "name": "Offence Selection"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "offence_selection == null || datum.OffenceDivision == offence_selection"
+    },
+    {"filter": "datum.Year == 2020"},
+    {"calculate": "datum.Sex == 'Females' ? 'Female' : 'Male'", "as": "Gender"}
+  ],
+  "spacing": 0,
+  "hconcat": [
+    {
+      "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
+      "title": "Female",
+      "mark": "bar",
+      "encoding": {
+        "y": {"field": "Age Group", "axis": null, "sort": "descending"},
+        "x": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "title": "Victim Reports ",
+          "axis": {"format": "s"},
+          "sort": "descending",
+          "scale": {"domain": [0, 30000]}
+        },
+        "color": {
+          "field": "gender",
+          "scale": {"range": ["#675193", "#ca8861"]},
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "Gender", "type": "nominal"},
+          {"field": "Year", "type": "ordinal"},
+          {
+            "aggregate": "sum",
+            "field": "Victim Reports",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "Age Group", "type": "ordinal"}
+        ]
+      }
+    },
+    {
+      "width": 35,
+      "view": {"stroke": null},
+      "mark": {"type": "text", "align": "center"},
+      "encoding": {
+        "y": {
+          "field": "Age Group",
+          "type": "ordinal",
+          "axis": null,
+          "sort": "descending"
+        },
+        "text": {"field": "Age Group", "type": "ordinal"}
+      }
+    },
+    {
+      "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
+      "title": "Male",
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "Age Group",
+          "title": null,
+          "axis": null,
+          "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "title": "Victim Reports ",
+          "axis": {"format": "s"},
+          "scale": {"domain": [0, 30000]}
+        },
+        "color": {"field": "Gender", "legend": null},
+        "tooltip": [
+          {"field": "Gender", "type": "nominal"},
+          {
+            "aggregate": "sum",
+            "field": "Victim Reports",
+            "type": "quantitative",
+            "format": ","
+          },
+          {"field": "Age Group", "type": "ordinal"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}
