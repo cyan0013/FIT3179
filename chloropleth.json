@@ -15,15 +15,15 @@
         "data": {
           "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
         },
-        "key": "Local Government Area",
-        "fields": ["Rate per 100,000 population"]
+        "key": "LocalGovernmentArea",
+        "fields": ["Rateper100,000population"]
       }
     }
   ],
   "mark": {"type": "geoshape"},
   "encoding": {
     "color": {
-      "field": "Rate per 100,000 population",
+      "field": "Rateper100,000population",
       "type": "quantitative",
       "scale": {"type": "threshold", "domain": [2000, 4000, 6000]}
     }
