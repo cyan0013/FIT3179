@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Victim Reports in Victoria",
+  "title": "Victim Reports in Victoria by LGA (2020)",
   "width": 800,
   "height": 600,
   "projection": {"type": "equirectangular"},
@@ -17,7 +17,9 @@
         }
       },
       "mark": {"type": "rule"},
-      "encoding": {"color": {"field": "PoliceRegion"}}
+      "encoding": {
+        "color": {"field": "PoliceRegion", "scale": {"range": ["#fff"]}}
+      }
     },
     {
       "data": {
@@ -57,7 +59,19 @@
           {
             "field": "LocalGovernmentArea",
             "type": "nominal",
-            "title": "Local Government Area (LGA)"
+            "title": "Local Government Area"
+          },
+          {
+            "field": "Victim Reports",
+            "type": "quantitative",
+            "format": ",",
+            "title": "Number of Reports"
+          },
+          {
+            "field": "Rateper100,000population",
+            "type": "quantitative",
+            "format": ",",
+            "title": "Rate per 100,000"
           }
         ]
       }
