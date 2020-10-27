@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Age pyramid",
-  "width": 800,
-  "height": 600,
+  "width": 500,
+  "height": 400,
+  "title": "Population Pyramid of Reporters by Age and Gender",
   "data": {
     "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/age_gender.csv"
   },
@@ -16,6 +16,12 @@
           "A Crimes against the person",
           "B Property and deception offences",
           "C Other offences"
+        ],
+        "labels": [
+          "Show All Offences",
+          "Crimes Against the Person",
+          "Property and Deception",
+          "Other Offences"
         ],
         "name": "Offence Selection"
       }
