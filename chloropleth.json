@@ -18,7 +18,11 @@
       },
       "mark": {"type": "rule"},
       "encoding": {
-        "color": {"field": "PoliceRegion", "scale": {"range": ["#fff"]}}
+        "color": {
+          "field": "PoliceRegion",
+          "scale": {"range": ["#fff"]},
+          "title": "Police Region"
+        }
       }
     },
     {
