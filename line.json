@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/reportall_2.csv"
+  },
+  "width": 650,
+  "height": 500,
+  "layer": [
+    {
+      "selection": {
+        "index": {
+          "type": "single",
+          "on": "mouseover",
+          "encodings": ["x"],
+          "nearest": true,
+          "init": {"x": {"year": 2011}}
+        }
+      },
+      "mark": "point",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "axis": null},
+        "opacity": {"value": 0}
+      }
+    },
+    {
+      "transform": [
+        {
+          "lookup": "Offence Subdivision",
+          "from": {"selection": "index", "key": "Offence Subdivision"}
+        }
+      ],
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "axis": null,
+          "title": "Year"
+        },
+        "y": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "type": "quantitative",
+          "title": "Number of Victim Reports"
+        },
+        "color": {"field": "Offence Subdivision", "type": "nominal"}
+      }
+    },
+    {
+      "transform": [{"filter": {"selection": "index"}}],
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal", "axis": null},
+        "color": {"value": "black"}
+      },
+      "layer": [
+        {"mark": {"type": "rule", "strokeWidth": 0.5}},
+        {
+          "mark": {"type": "circle"},
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal", "axis": null},
+            "y": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "quantitative"
+            },
+            "key": {"field": "Offence Subdivision"}
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "right", "dx": -10},
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal", "axis": null},
+            "y": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "quantitative"
+            },
+            "key": {"field": "Offence Subdivision"},
+            "text": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "quantitative",
+              "format": ","
+            }
+          }
+        },
+        {
+          "mark": {"type": "text", "align": "center", "fontWeight": 100},
+          "encoding": {
+            "text": {"field": "Year", "timeUnit": "year"},
+            "y": {"value": 507}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {}
+}

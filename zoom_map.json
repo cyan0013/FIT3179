@@ -1,0 +1,285 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "An interactive world map supporting pan and zoom.",
+  "width": 900,
+  "height": 500,
+  "autosize": "pad",
+  "signals": [
+    {"name": "tx", "update": "width / 4"},
+    {"name": "ty", "update": "height / 4"},
+    {
+      "name": "scale",
+      "value": 100,
+      "on": [
+        {
+          "events": {"type": "wheel", "consume": true},
+          "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(10, event.deltaMode)), 150, 3000)"
+        }
+      ]
+    },
+    {
+      "name": "angles",
+      "value": [0, 0],
+      "on": [{"events": "mousedown", "update": "[rotateX, centerY]"}]
+    },
+    {
+      "name": "cloned",
+      "value": null,
+      "on": [{"events": "mousedown", "update": "copy('projection')"}]
+    },
+    {
+      "name": "start",
+      "value": null,
+      "on": [{"events": "mousedown", "update": "invert(cloned, xy())"}]
+    },
+    {
+      "name": "drag",
+      "value": null,
+      "on": [
+        {
+          "events": "[mousedown, window:mouseup] > window:mousemove",
+          "update": "invert(cloned, xy())"
+        }
+      ]
+    },
+    {
+      "name": "delta",
+      "value": null,
+      "on": [
+        {
+          "events": {"signal": "drag"},
+          "update": "[drag[0] - start[0], start[1] - drag[1]]"
+        }
+      ]
+    },
+    {
+      "name": "rotateX",
+      "value": 0,
+      "on": [{"events": {"signal": "delta"}, "update": "angles[0] + delta[0]"}]
+    },
+    {
+      "name": "centerY",
+      "value": 0,
+      "on": [
+        {
+          "events": {"signal": "delta"},
+          "update": "clamp(angles[1] + delta[1], -60, 60)"
+        }
+      ]
+    },
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "region_highlight_PoliceRegion_legend",
+      "value": null,
+      "on": [
+        {
+          "events": [
+            {
+              "source": "view",
+              "type": "click",
+              "markname": "PoliceRegion_legend_symbols"
+            },
+            {
+              "source": "view",
+              "type": "click",
+              "markname": "PoliceRegion_legend_labels"
+            },
+            {
+              "source": "view",
+              "type": "click",
+              "markname": "PoliceRegion_legend_entries"
+            }
+          ],
+          "update": "datum.value || item().items[0].items[0].datum.value",
+          "force": true
+        },
+        {
+          "events": [{"source": "view", "type": "click"}],
+          "update": "!event.item || !datum ? null : region_highlight_PoliceRegion_legend",
+          "force": true
+        }
+      ]
+    },
+    {
+      "name": "region_highlight",
+      "update": "vlSelectionResolve(\"region_highlight_store\", \"union\", true)"
+    },
+    {
+      "name": "region_highlight_tuple",
+      "update": "region_highlight_PoliceRegion_legend !== null ? {fields: region_highlight_tuple_fields, values: [region_highlight_PoliceRegion_legend]} : null"
+    },
+    {
+      "name": "region_highlight_tuple_fields",
+      "value": [{"type": "E", "field": "PoliceRegion"}]
+    },
+    {
+      "name": "region_highlight_toggle",
+      "value": false,
+      "on": [
+        {
+          "events": {"merge": [{"source": "view", "type": "click"}]},
+          "update": "event.shiftKey"
+        }
+      ]
+    },
+    {
+      "name": "region_highlight_modify",
+      "on": [
+        {
+          "events": {"signal": "region_highlight_tuple"},
+          "update": "modify(\"region_highlight_store\", region_highlight_toggle ? null : region_highlight_tuple, region_highlight_toggle ? null : true, region_highlight_toggle ? region_highlight_tuple : null)"
+        }
+      ]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "type": "mercator",
+      "scale": {"signal": "scale"},
+      "rotate": [{"signal": "rotateX"}, 0, 0],
+      "center": [0, {"signal": "centerY"}],
+      "translate": [{"signal": "tx"}, {"signal": "ty"}]
+    }
+  ],
+  "data": [
+    {"name": "region_highlight_store"},
+    {
+      "name": "source_0",
+      "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv",
+      "format": {"type": "csv", "delimiter": ","}
+    },
+    {
+      "name": "source_1",
+      "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/VIC_LGA_POLYGON_SHP.topojson",
+      "format": {"type": "topojson", "feature": "VIC_LGA_POLYGON_SHP"},
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "source_0",
+          "key": "LocalGovernmentArea",
+          "fields": ["properties.ABB_NAME"],
+          "values": [
+            "Rateper100,000population",
+            "LocalGovernmentArea",
+            "Victim Reports",
+            "PoliceRegion"
+          ]
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"Rateper100,000population\"]) && isFinite(+datum[\"Rateper100,000population\"])"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_marks",
+      "type": "rule",
+      "style": ["rule"],
+      "interactive": true,
+      "from": {"data": "source_0"},
+      "encode": {"update": {}}
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "shape",
+      "style": ["geoshape"],
+      "interactive": true,
+      "from": {"data": "source_1"},
+      "encode": {
+        "update": {
+          "fill": {
+            "scale": "layer_1_color",
+            "field": "Rateper100,000population"
+          },
+          "opacity": [
+            {
+              "test": "!(length(data(\"region_highlight_store\"))) || (vlSelectionTest(\"region_highlight_store\", datum))",
+              "value": 1
+            },
+            {"value": 0.2}
+          ],
+          "tooltip": {
+            "signal": "{\"Local Government Area\": isValid(datum[\"LocalGovernmentArea\"]) ? datum[\"LocalGovernmentArea\"] : \"\"+datum[\"LocalGovernmentArea\"], \"Number of Reports\": format(datum[\"Victim Reports\"], \",\"), \"Rate per 100,000\": format(datum[\"Rateper100,000population\"], \",\")}"
+          },
+          "ariaRoleDescription": {"value": "geoshape"},
+          "description": {
+            "signal": "\"Rate per 100,000: \" + (format(datum[\"Rateper100,000population\"], \"\")) + \"; Local Government Area: \" + (isValid(datum[\"LocalGovernmentArea\"]) ? datum[\"LocalGovernmentArea\"] : \"\"+datum[\"LocalGovernmentArea\"]) + \"; Number of Reports: \" + (format(datum[\"Victim Reports\"], \",\"))"
+          }
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    }
+  ],
+  "scales": [
+    {
+      "name": "layer_0_color",
+      "type": "ordinal",
+      "domain": {"data": "source_0", "field": "PoliceRegion", "sort": true},
+      "range": ["#fff"]
+    },
+    {
+      "name": "layer_1_color",
+      "type": "linear",
+      "domain": [0, 8000],
+      "range": "heatmap",
+      "interpolate": "hcl",
+      "zero": true
+    }
+  ],
+  "legends": [
+    {
+      "title": "Police Region",
+      "stroke": "layer_0_color",
+      "symbolType": "stroke",
+      "encode": {
+        "labels": {
+          "name": "PoliceRegion_legend_labels",
+          "interactive": true,
+          "update": {
+            "opacity": [
+              {
+                "test": "(!length(data(\"region_highlight_store\")) || (region_highlight[\"PoliceRegion\"] && indexof(region_highlight[\"PoliceRegion\"], datum.value) >= 0))",
+                "value": 1
+              },
+              {"value": 0.35}
+            ]
+          }
+        },
+        "symbols": {
+          "name": "PoliceRegion_legend_symbols",
+          "interactive": true,
+          "update": {
+            "opacity": [
+              {
+                "test": "(!length(data(\"region_highlight_store\")) || (region_highlight[\"PoliceRegion\"] && indexof(region_highlight[\"PoliceRegion\"], datum.value) >= 0))",
+                "value": 1
+              },
+              {"value": 0.35}
+            ]
+          }
+        },
+        "entries": {
+          "name": "PoliceRegion_legend_entries",
+          "interactive": true,
+          "update": {"fill": {"value": "transparent"}}
+        }
+      }
+    },
+    {
+      "title": "Rate per 100,000",
+      "fill": "layer_1_color",
+      "gradientLength": {"signal": "clamp(height, 64, 200)"},
+      "encode": {"gradient": {"update": {"opacity": {"value": 1}}}}
+    }
+  ],
+  "config": {}
+}
