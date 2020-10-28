@@ -16,10 +16,14 @@
 
 <h2> Figure 1: LGA Map Visualisation </h1>
 <div id="chloropleth"></div>
+  <div id="zoom"></div>
 
 <h2> Figure 2: Population Pyramid of Reporters  </h1>
 <div id="pyramid"></div>
 
+<h2> Figure 3: Interactive Line Chart of Offences  </h1>
+<div id="line"></div>
+  
 <script type="text/javascript">
   var vis1 = "https://cyan0013.github.io/FIT3179/chloropleth.json";
   vegaEmbed('#chloropleth', vis1).then(function(result) {
@@ -28,6 +32,16 @@
 
   var vis2 = "https://cyan0013.github.io/FIT3179/bar.json";
   vegaEmbed('#pyramid', vis2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var vis2 = "https://cyan0013.github.io/FIT3179/line.json";
+  vegaEmbed('#line', vis2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var vis2 = "https://cyan0013.github.io/FIT3179/zoom_map.json";
+  vegaEmbed('#zoom', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
