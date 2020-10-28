@@ -27,7 +27,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2020,Ballarat,B Property and deception offences,B30 Burglary/Break and enter,655
 2020,Ballarat,B Property and deception offences,B40 Theft,"2,394"
 2020,Ballarat,B Property and deception offences,B50 Deception,66
-2020,Ballarat,C Drug offences,C90 Other drug offences,4
+2020,Ballarat,C Other offences,C90 Other drug offences,4
 2020,Banyule,A Crimes against the person,A10 Homicide and related offences,4
 2020,Banyule,A Crimes against the person,A20 Assault and related offences,650
 2020,Banyule,A Crimes against the person,A30 Sexual offences,101
@@ -203,7 +203,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2020,Frankston,B Property and deception offences,B30 Burglary/Break and enter,549
 2020,Frankston,B Property and deception offences,B40 Theft,"2,387"
 2020,Frankston,B Property and deception offences,B50 Deception,189
-2020,Frankston,E Justice procedures offences,E20 Breaches of orders,5
+2020,Frankston,C Other offences,E20 Breaches of orders,5
 2020,Gannawarra,A Crimes against the person,A20 Assault and related offences,75
 2020,Gannawarra,A Crimes against the person,A30 Sexual offences,17
 2020,Gannawarra,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",16
@@ -278,8 +278,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2020,Greater Geelong,B Property and deception offences,B30 Burglary/Break and enter,"1,265"
 2020,Greater Geelong,B Property and deception offences,B40 Theft,"3,776"
 2020,Greater Geelong,B Property and deception offences,B50 Deception,294
-2020,Greater Geelong,D Public order and security offences,D20 Disorderly and offensive conduct,7
-2020,Greater Geelong,E Justice procedures offences,E20 Breaches of orders,5
+2020,Greater Geelong,C Other offences,D20 Disorderly and offensive conduct,7
+2020,Greater Geelong,C Other offences,E20 Breaches of orders,5
 2020,Greater Shepparton,A Crimes against the person,A20 Assault and related offences,722
 2020,Greater Shepparton,A Crimes against the person,A30 Sexual offences,126
 2020,Greater Shepparton,A Crimes against the person,A40 Abduction and related offences,8
@@ -340,8 +340,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2020,Hume,B Property and deception offences,B30 Burglary/Break and enter,928
 2020,Hume,B Property and deception offences,B40 Theft,"3,329"
 2020,Hume,B Property and deception offences,B50 Deception,367
-2020,Hume,C Drug offences,C90 Other drug offences,4
-2020,Hume,D Public order and security offences,D10 Weapons and explosives offences,5
+2020,Hume,C Other offences,C90 Other drug offences,4
+2020,Hume,C Other offences,D10 Weapons and explosives offences,5
 2020,Indigo,A Crimes against the person,A20 Assault and related offences,51
 2020,Indigo,A Crimes against the person,A30 Sexual offences,12
 2020,Indigo,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",4
@@ -372,7 +372,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2020,Knox,B Property and deception offences,B30 Burglary/Break and enter,606
 2020,Knox,B Property and deception offences,B40 Theft,"2,493"
 2020,Knox,B Property and deception offences,B50 Deception,186
-2020,Knox,E Justice procedures offences,E10 Justice procedures,4
+2020,Knox,C Other offences,E10 Justice procedures,4
 2020,Latrobe,A Crimes against the person,A20 Assault and related offences,"1,293"
 2020,Latrobe,A Crimes against the person,A30 Sexual offences,196
 2020,Latrobe,A Crimes against the person,A40 Abduction and related offences,8
@@ -480,7 +480,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2020,Mildura,B Property and deception offences,B30 Burglary/Break and enter,438
 2020,Mildura,B Property and deception offences,B40 Theft,"1,030"
 2020,Mildura,B Property and deception offences,B50 Deception,87
-2020,Mildura,E Justice procedures offences,E20 Breaches of orders,5
+2020,Mildura,C Other offences,E20 Breaches of orders,5
 2020,Mitchell,A Crimes against the person,A20 Assault and related offences,454
 2020,Mitchell,A Crimes against the person,A30 Sexual offences,70
 2020,Mitchell,A Crimes against the person,A50 Robbery,4
@@ -828,7 +828,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2019,Ballarat,B Property and deception offences,B30 Burglary/Break and enter,636
 2019,Ballarat,B Property and deception offences,B40 Theft,"1,987"
 2019,Ballarat,B Property and deception offences,B50 Deception,85
-2019,Ballarat,F Other offences,F90 Miscellaneous offences,4
+2019,Ballarat,C Other offences,F90 Miscellaneous offences,4
 2019,Banyule,A Crimes against the person,A20 Assault and related offences,595
 2019,Banyule,A Crimes against the person,A30 Sexual offences,109
 2019,Banyule,A Crimes against the person,A40 Abduction and related offences,9
@@ -945,7 +945,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2019,Casey,B Property and deception offences,B30 Burglary/Break and enter,"1,074"
 2019,Casey,B Property and deception offences,B40 Theft,"4,190"
 2019,Casey,B Property and deception offences,B50 Deception,372
-2019,Casey,C Drug offences,C90 Other drug offences,4
+2019,Casey,C Other offences,C90 Other drug offences,4
 2019,Central Goldfields,A Crimes against the person,A20 Assault and related offences,156
 2019,Central Goldfields,A Crimes against the person,A30 Sexual offences,38
 2019,Central Goldfields,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",20
@@ -1082,8 +1082,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2019,Greater Geelong,B Property and deception offences,B30 Burglary/Break and enter,"1,101"
 2019,Greater Geelong,B Property and deception offences,B40 Theft,"3,397"
 2019,Greater Geelong,B Property and deception offences,B50 Deception,237
-2019,Greater Geelong,C Drug offences,C90 Other drug offences,7
-2019,Greater Geelong,D Public order and security offences,D10 Weapons and explosives offences,7
+2019,Greater Geelong,C Other offences,C90 Other drug offences,7
+2019,Greater Geelong,C Other offences,D10 Weapons and explosives offences,7
 2019,Greater Shepparton,A Crimes against the person,A10 Homicide and related offences,6
 2019,Greater Shepparton,A Crimes against the person,A20 Assault and related offences,729
 2019,Greater Shepparton,A Crimes against the person,A30 Sexual offences,126
@@ -1144,7 +1144,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2019,Hume,B Property and deception offences,B30 Burglary/Break and enter,865
 2019,Hume,B Property and deception offences,B40 Theft,"3,661"
 2019,Hume,B Property and deception offences,B50 Deception,262
-2019,Hume,D Public order and security offences,D10 Weapons and explosives offences,5
+2019,Hume,C Other offences,D10 Weapons and explosives offences,5
 2019,Indigo,A Crimes against the person,A20 Assault and related offences,62
 2019,Indigo,A Crimes against the person,A30 Sexual offences,16
 2019,Indigo,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",10
@@ -1259,7 +1259,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2019,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,889
 2019,Melbourne,B Property and deception offences,B40 Theft,"6,243"
 2019,Melbourne,B Property and deception offences,B50 Deception,847
-2019,Melbourne,C Drug offences,C90 Other drug offences,11
+2019,Melbourne,C Other offences,C90 Other drug offences,11
 2019,Melton,A Crimes against the person,A10 Homicide and related offences,5
 2019,Melton,A Crimes against the person,A20 Assault and related offences,932
 2019,Melton,A Crimes against the person,A30 Sexual offences,181
@@ -2049,7 +2049,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2018,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,909
 2018,Melbourne,B Property and deception offences,B40 Theft,"6,490"
 2018,Melbourne,B Property and deception offences,B50 Deception,879
-2018,Melbourne,C Drug offences,C90 Other drug offences,7
+2018,Melbourne,C Other offences,C90 Other drug offences,7
 2018,Melton,A Crimes against the person,A10 Homicide and related offences,6
 2018,Melton,A Crimes against the person,A20 Assault and related offences,890
 2018,Melton,A Crimes against the person,A30 Sexual offences,170
@@ -2163,7 +2163,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2018,Mount Alexander,B Property and deception offences,B30 Burglary/Break and enter,29
 2018,Mount Alexander,B Property and deception offences,B40 Theft,116
 2018,Mount Alexander,B Property and deception offences,B50 Deception,10
-2018,Mount Alexander,F Other offences,F90 Miscellaneous offences,4
+2018,Mount Alexander,C Other offences,F90 Miscellaneous offences,4
 2018,Moyne,A Crimes against the person,A20 Assault and related offences,68
 2018,Moyne,A Crimes against the person,A30 Sexual offences,21
 2018,Moyne,A Crimes against the person,A50 Robbery,4
@@ -2938,8 +2938,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2017,Mornington Peninsula,B Property and deception offences,B30 Burglary/Break and enter,"1,015"
 2017,Mornington Peninsula,B Property and deception offences,B40 Theft,"1,850"
 2017,Mornington Peninsula,B Property and deception offences,B50 Deception,76
-2017,Mornington Peninsula,C Drug offences,C90 Other drug offences,5
-2017,Mornington Peninsula,E Justice procedures offences,E10 Justice procedures,5
+2017,Mornington Peninsula,C Other offences,C90 Other drug offences,5
+2017,Mornington Peninsula,C Other offences,E10 Justice procedures,5
 2017,Mount Alexander,A Crimes against the person,A20 Assault and related offences,72
 2017,Mount Alexander,A Crimes against the person,A30 Sexual offences,16
 2017,Mount Alexander,A Crimes against the person,A50 Robbery,8
@@ -3211,7 +3211,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Ballarat,B Property and deception offences,B30 Burglary/Break and enter,961
 2016,Ballarat,B Property and deception offences,B40 Theft,"2,587"
 2016,Ballarat,B Property and deception offences,B50 Deception,33
-2016,Ballarat,D Public order and security offences,D20 Disorderly and offensive conduct,5
+2016,Ballarat,C Other offences,D20 Disorderly and offensive conduct,5
 2016,Banyule,A Crimes against the person,A20 Assault and related offences,667
 2016,Banyule,A Crimes against the person,A30 Sexual offences,115
 2016,Banyule,A Crimes against the person,A40 Abduction and related offences,6
@@ -3224,7 +3224,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Banyule,B Property and deception offences,B30 Burglary/Break and enter,777
 2016,Banyule,B Property and deception offences,B40 Theft,"2,163"
 2016,Banyule,B Property and deception offences,B50 Deception,52
-2016,Banyule,E Justice procedures offences,E20 Breaches of orders,4
+2016,Banyule,C Other offences,E20 Breaches of orders,4
 2016,Bass Coast,A Crimes against the person,A20 Assault and related offences,327
 2016,Bass Coast,A Crimes against the person,A30 Sexual offences,52
 2016,Bass Coast,A Crimes against the person,A40 Abduction and related offences,6
@@ -3288,7 +3288,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Brimbank,B Property and deception offences,B30 Burglary/Break and enter,"1,457"
 2016,Brimbank,B Property and deception offences,B40 Theft,"4,367"
 2016,Brimbank,B Property and deception offences,B50 Deception,140
-2016,Brimbank,D Public order and security offences,D30 Public nuisance offences,5
+2016,Brimbank,C Other offences,D30 Public nuisance offences,5
 2016,Buloke,A Crimes against the person,A20 Assault and related offences,19
 2016,Buloke,A Crimes against the person,A30 Sexual offences,14
 2016,Buloke,B Property and deception offences,B20 Property damage,22
@@ -3330,7 +3330,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Casey,B Property and deception offences,B30 Burglary/Break and enter,"1,484"
 2016,Casey,B Property and deception offences,B40 Theft,"4,033"
 2016,Casey,B Property and deception offences,B50 Deception,152
-2016,Casey,D Public order and security offences,D30 Public nuisance offences,4
+2016,Casey,C Other offences,D30 Public nuisance offences,4
 2016,Central Goldfields,A Crimes against the person,A20 Assault and related offences,153
 2016,Central Goldfields,A Crimes against the person,A30 Sexual offences,25
 2016,Central Goldfields,A Crimes against the person,A50 Robbery,5
@@ -3393,7 +3393,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Frankston,B Property and deception offences,B30 Burglary/Break and enter,844
 2016,Frankston,B Property and deception offences,B40 Theft,"2,613"
 2016,Frankston,B Property and deception offences,B50 Deception,129
-2016,Frankston,D Public order and security offences,D30 Public nuisance offences,10
+2016,Frankston,C Other offences,D30 Public nuisance offences,10
 2016,Gannawarra,A Crimes against the person,A20 Assault and related offences,54
 2016,Gannawarra,A Crimes against the person,A30 Sexual offences,16
 2016,Gannawarra,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",12
@@ -3442,7 +3442,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Greater Bendigo,B Property and deception offences,B30 Burglary/Break and enter,533
 2016,Greater Bendigo,B Property and deception offences,B40 Theft,"1,476"
 2016,Greater Bendigo,B Property and deception offences,B50 Deception,30
-2016,Greater Bendigo,D Public order and security offences,D30 Public nuisance offences,7
+2016,Greater Bendigo,C Other offences,D30 Public nuisance offences,7
 2016,Greater Dandenong,A Crimes against the person,A10 Homicide and related offences,5
 2016,Greater Dandenong,A Crimes against the person,A20 Assault and related offences,"1,601"
 2016,Greater Dandenong,A Crimes against the person,A30 Sexual offences,209
@@ -3455,7 +3455,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Greater Dandenong,B Property and deception offences,B30 Burglary/Break and enter,905
 2016,Greater Dandenong,B Property and deception offences,B40 Theft,"3,418"
 2016,Greater Dandenong,B Property and deception offences,B50 Deception,123
-2016,Greater Dandenong,D Public order and security offences,D30 Public nuisance offences,4
+2016,Greater Dandenong,C Other offences,D30 Public nuisance offences,4
 2016,Greater Geelong,A Crimes against the person,A10 Homicide and related offences,6
 2016,Greater Geelong,A Crimes against the person,A20 Assault and related offences,"1,317"
 2016,Greater Geelong,A Crimes against the person,A30 Sexual offences,249
@@ -3481,7 +3481,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Greater Shepparton,B Property and deception offences,B30 Burglary/Break and enter,467
 2016,Greater Shepparton,B Property and deception offences,B40 Theft,978
 2016,Greater Shepparton,B Property and deception offences,B50 Deception,41
-2016,Greater Shepparton,D Public order and security offences,D30 Public nuisance offences,4
+2016,Greater Shepparton,C Other offences,D30 Public nuisance offences,4
 2016,Hepburn,A Crimes against the person,A20 Assault and related offences,71
 2016,Hepburn,A Crimes against the person,A30 Sexual offences,32
 2016,Hepburn,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",9
@@ -3530,8 +3530,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Hume,B Property and deception offences,B30 Burglary/Break and enter,"1,410"
 2016,Hume,B Property and deception offences,B40 Theft,"4,288"
 2016,Hume,B Property and deception offences,B50 Deception,151
-2016,Hume,D Public order and security offences,D30 Public nuisance offences,4
-2016,Hume,E Justice procedures offences,E10 Justice procedures,4
+2016,Hume,C Other offences,D30 Public nuisance offences,4
+2016,Hume,C Other offences,E10 Justice procedures,4
 2016,Indigo,A Crimes against the person,A20 Assault and related offences,48
 2016,Indigo,A Crimes against the person,A30 Sexual offences,9
 2016,Indigo,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",6
@@ -3575,8 +3575,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Latrobe,B Property and deception offences,B30 Burglary/Break and enter,680
 2016,Latrobe,B Property and deception offences,B40 Theft,"1,603"
 2016,Latrobe,B Property and deception offences,B50 Deception,71
-2016,Latrobe,D Public order and security offences,D30 Public nuisance offences,4
-2016,Latrobe,E Justice procedures offences,E20 Breaches of orders,7
+2016,Latrobe,C Other offences,D30 Public nuisance offences,4
+2016,Latrobe,C Other offences,E20 Breaches of orders,7
 2016,Loddon,A Crimes against the person,A20 Assault and related offences,43
 2016,Loddon,A Crimes against the person,A30 Sexual offences,9
 2016,Loddon,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",7
@@ -3603,7 +3603,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Manningham,B Property and deception offences,B30 Burglary/Break and enter,519
 2016,Manningham,B Property and deception offences,B40 Theft,878
 2016,Manningham,B Property and deception offences,B50 Deception,46
-2016,Manningham,E Justice procedures offences,E10 Justice procedures,4
+2016,Manningham,C Other offences,E10 Justice procedures,4
 2016,Mansfield,A Crimes against the person,A20 Assault and related offences,44
 2016,Mansfield,A Crimes against the person,A30 Sexual offences,14
 2016,Mansfield,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -3622,7 +3622,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Maribyrnong,B Property and deception offences,B30 Burglary/Break and enter,595
 2016,Maribyrnong,B Property and deception offences,B40 Theft,"2,553"
 2016,Maribyrnong,B Property and deception offences,B50 Deception,62
-2016,Maribyrnong,D Public order and security offences,D30 Public nuisance offences,8
+2016,Maribyrnong,C Other offences,D30 Public nuisance offences,8
 2016,Maroondah,A Crimes against the person,A20 Assault and related offences,643
 2016,Maroondah,A Crimes against the person,A30 Sexual offences,123
 2016,Maroondah,A Crimes against the person,A40 Abduction and related offences,10
@@ -3635,8 +3635,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Maroondah,B Property and deception offences,B30 Burglary/Break and enter,339
 2016,Maroondah,B Property and deception offences,B40 Theft,"1,458"
 2016,Maroondah,B Property and deception offences,B50 Deception,45
-2016,Maroondah,D Public order and security offences,D20 Disorderly and offensive conduct,4
-2016,Maroondah,D Public order and security offences,D30 Public nuisance offences,5
+2016,Maroondah,C Other offences,D20 Disorderly and offensive conduct,4
+2016,Maroondah,C Other offences,D30 Public nuisance offences,5
 2016,Melbourne,A Crimes against the person,A10 Homicide and related offences,6
 2016,Melbourne,A Crimes against the person,A20 Assault and related offences,"2,448"
 2016,Melbourne,A Crimes against the person,A30 Sexual offences,352
@@ -3650,7 +3650,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,958
 2016,Melbourne,B Property and deception offences,B40 Theft,"7,066"
 2016,Melbourne,B Property and deception offences,B50 Deception,388
-2016,Melbourne,E Justice procedures offences,E10 Justice procedures,4
+2016,Melbourne,C Other offences,E10 Justice procedures,4
 2016,Melton,A Crimes against the person,A10 Homicide and related offences,6
 2016,Melton,A Crimes against the person,A20 Assault and related offences,954
 2016,Melton,A Crimes against the person,A30 Sexual offences,128
@@ -3717,7 +3717,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Moonee Valley,B Property and deception offences,B30 Burglary/Break and enter,646
 2016,Moonee Valley,B Property and deception offences,B40 Theft,"2,767"
 2016,Moonee Valley,B Property and deception offences,B50 Deception,61
-2016,Moonee Valley,D Public order and security offences,D30 Public nuisance offences,7
+2016,Moonee Valley,C Other offences,D30 Public nuisance offences,7
 2016,Moorabool,A Crimes against the person,A10 Homicide and related offences,4
 2016,Moorabool,A Crimes against the person,A20 Assault and related offences,204
 2016,Moorabool,A Crimes against the person,A30 Sexual offences,62
@@ -3754,7 +3754,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Mornington Peninsula,B Property and deception offences,B30 Burglary/Break and enter,"1,030"
 2016,Mornington Peninsula,B Property and deception offences,B40 Theft,"1,882"
 2016,Mornington Peninsula,B Property and deception offences,B50 Deception,59
-2016,Mornington Peninsula,D Public order and security offences,D30 Public nuisance offences,9
+2016,Mornington Peninsula,C Other offences,D30 Public nuisance offences,9
 2016,Mount Alexander,A Crimes against the person,A20 Assault and related offences,94
 2016,Mount Alexander,A Crimes against the person,A30 Sexual offences,14
 2016,Mount Alexander,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",9
@@ -3910,7 +3910,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Warrnambool,B Property and deception offences,B30 Burglary/Break and enter,151
 2016,Warrnambool,B Property and deception offences,B40 Theft,359
 2016,Warrnambool,B Property and deception offences,B50 Deception,33
-2016,Warrnambool,D Public order and security offences,D30 Public nuisance offences,4
+2016,Warrnambool,C Other offences,D30 Public nuisance offences,4
 2016,Wellington,A Crimes against the person,A20 Assault and related offences,501
 2016,Wellington,A Crimes against the person,A30 Sexual offences,124
 2016,Wellington,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",119
@@ -3974,7 +3974,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2016,Wyndham,B Property and deception offences,B30 Burglary/Break and enter,"1,204"
 2016,Wyndham,B Property and deception offences,B40 Theft,"3,410"
 2016,Wyndham,B Property and deception offences,B50 Deception,84
-2016,Wyndham,D Public order and security offences,D30 Public nuisance offences,5
+2016,Wyndham,C Other offences,D30 Public nuisance offences,5
 2016,Yarra,A Crimes against the person,A10 Homicide and related offences,5
 2016,Yarra,A Crimes against the person,A20 Assault and related offences,719
 2016,Yarra,A Crimes against the person,A30 Sexual offences,127
@@ -4106,7 +4106,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Brimbank,B Property and deception offences,B30 Burglary/Break and enter,"1,567"
 2015,Brimbank,B Property and deception offences,B40 Theft,"4,106"
 2015,Brimbank,B Property and deception offences,B50 Deception,95
-2015,Brimbank,D Public order and security offences,D30 Public nuisance offences,5
+2015,Brimbank,C Other offences,D30 Public nuisance offences,5
 2015,Buloke,A Crimes against the person,A20 Assault and related offences,22
 2015,Buloke,A Crimes against the person,A30 Sexual offences,10
 2015,Buloke,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -4207,7 +4207,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Frankston,B Property and deception offences,B30 Burglary/Break and enter,695
 2015,Frankston,B Property and deception offences,B40 Theft,"2,000"
 2015,Frankston,B Property and deception offences,B50 Deception,92
-2015,Frankston,D Public order and security offences,D30 Public nuisance offences,6
+2015,Frankston,C Other offences,D30 Public nuisance offences,6
 2015,Gannawarra,A Crimes against the person,A20 Assault and related offences,60
 2015,Gannawarra,A Crimes against the person,A30 Sexual offences,12
 2015,Gannawarra,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",9
@@ -4253,7 +4253,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Greater Bendigo,B Property and deception offences,B30 Burglary/Break and enter,401
 2015,Greater Bendigo,B Property and deception offences,B40 Theft,"1,150"
 2015,Greater Bendigo,B Property and deception offences,B50 Deception,50
-2015,Greater Bendigo,D Public order and security offences,D30 Public nuisance offences,13
+2015,Greater Bendigo,C Other offences,D30 Public nuisance offences,13
 2015,Greater Dandenong,A Crimes against the person,A10 Homicide and related offences,5
 2015,Greater Dandenong,A Crimes against the person,A20 Assault and related offences,"1,456"
 2015,Greater Dandenong,A Crimes against the person,A30 Sexual offences,234
@@ -4280,7 +4280,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Greater Geelong,B Property and deception offences,B30 Burglary/Break and enter,"1,388"
 2015,Greater Geelong,B Property and deception offences,B40 Theft,"4,181"
 2015,Greater Geelong,B Property and deception offences,B50 Deception,72
-2015,Greater Geelong,D Public order and security offences,D30 Public nuisance offences,9
+2015,Greater Geelong,C Other offences,D30 Public nuisance offences,9
 2015,Greater Shepparton,A Crimes against the person,A20 Assault and related offences,675
 2015,Greater Shepparton,A Crimes against the person,A30 Sexual offences,109
 2015,Greater Shepparton,A Crimes against the person,A40 Abduction and related offences,4
@@ -4292,7 +4292,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Greater Shepparton,B Property and deception offences,B30 Burglary/Break and enter,617
 2015,Greater Shepparton,B Property and deception offences,B40 Theft,"1,054"
 2015,Greater Shepparton,B Property and deception offences,B50 Deception,44
-2015,Greater Shepparton,D Public order and security offences,D30 Public nuisance offences,9
+2015,Greater Shepparton,C Other offences,D30 Public nuisance offences,9
 2015,Hepburn,A Crimes against the person,A20 Assault and related offences,52
 2015,Hepburn,A Crimes against the person,A30 Sexual offences,19
 2015,Hepburn,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",18
@@ -4384,7 +4384,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Latrobe,B Property and deception offences,B30 Burglary/Break and enter,538
 2015,Latrobe,B Property and deception offences,B40 Theft,"1,240"
 2015,Latrobe,B Property and deception offences,B50 Deception,85
-2015,Latrobe,D Public order and security offences,D30 Public nuisance offences,4
+2015,Latrobe,C Other offences,D30 Public nuisance offences,4
 2015,Loddon,A Crimes against the person,A20 Assault and related offences,45
 2015,Loddon,A Crimes against the person,A30 Sexual offences,9
 2015,Loddon,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",8
@@ -4430,7 +4430,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Maribyrnong,B Property and deception offences,B30 Burglary/Break and enter,698
 2015,Maribyrnong,B Property and deception offences,B40 Theft,"2,039"
 2015,Maribyrnong,B Property and deception offences,B50 Deception,52
-2015,Maribyrnong,D Public order and security offences,D30 Public nuisance offences,4
+2015,Maribyrnong,C Other offences,D30 Public nuisance offences,4
 2015,Maroondah,A Crimes against the person,A20 Assault and related offences,565
 2015,Maroondah,A Crimes against the person,A30 Sexual offences,85
 2015,Maroondah,A Crimes against the person,A40 Abduction and related offences,7
@@ -4521,7 +4521,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Moonee Valley,B Property and deception offences,B30 Burglary/Break and enter,655
 2015,Moonee Valley,B Property and deception offences,B40 Theft,"2,272"
 2015,Moonee Valley,B Property and deception offences,B50 Deception,112
-2015,Moonee Valley,D Public order and security offences,D30 Public nuisance offences,9
+2015,Moonee Valley,C Other offences,D30 Public nuisance offences,9
 2015,Moorabool,A Crimes against the person,A20 Assault and related offences,147
 2015,Moorabool,A Crimes against the person,A30 Sexual offences,29
 2015,Moorabool,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",34
@@ -4555,7 +4555,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Mornington Peninsula,B Property and deception offences,B30 Burglary/Break and enter,826
 2015,Mornington Peninsula,B Property and deception offences,B40 Theft,"1,695"
 2015,Mornington Peninsula,B Property and deception offences,B50 Deception,74
-2015,Mornington Peninsula,D Public order and security offences,D30 Public nuisance offences,7
+2015,Mornington Peninsula,C Other offences,D30 Public nuisance offences,7
 2015,Mount Alexander,A Crimes against the person,A20 Assault and related offences,81
 2015,Mount Alexander,A Crimes against the person,A30 Sexual offences,15
 2015,Mount Alexander,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",21
@@ -4694,7 +4694,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Warrnambool,B Property and deception offences,B30 Burglary/Break and enter,124
 2015,Warrnambool,B Property and deception offences,B40 Theft,301
 2015,Warrnambool,B Property and deception offences,B50 Deception,15
-2015,Warrnambool,D Public order and security offences,D30 Public nuisance offences,4
+2015,Warrnambool,C Other offences,D30 Public nuisance offences,4
 2015,Wellington,A Crimes against the person,A20 Assault and related offences,508
 2015,Wellington,A Crimes against the person,A30 Sexual offences,69
 2015,Wellington,A Crimes against the person,A40 Abduction and related offences,5
@@ -4731,7 +4731,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Whittlesea,B Property and deception offences,B30 Burglary/Break and enter,782
 2015,Whittlesea,B Property and deception offences,B40 Theft,"2,692"
 2015,Whittlesea,B Property and deception offences,B50 Deception,117
-2015,Whittlesea,D Public order and security offences,D30 Public nuisance offences,4
+2015,Whittlesea,C Other offences,D30 Public nuisance offences,4
 2015,Wodonga,A Crimes against the person,A20 Assault and related offences,361
 2015,Wodonga,A Crimes against the person,A30 Sexual offences,61
 2015,Wodonga,A Crimes against the person,A40 Abduction and related offences,4
@@ -4778,7 +4778,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2015,Yarra Ranges,B Property and deception offences,B30 Burglary/Break and enter,349
 2015,Yarra Ranges,B Property and deception offences,B40 Theft,"1,084"
 2015,Yarra Ranges,B Property and deception offences,B50 Deception,50
-2015,Yarra Ranges,D Public order and security offences,D30 Public nuisance offences,6
+2015,Yarra Ranges,C Other offences,D30 Public nuisance offences,6
 2015,Yarriambiack,A Crimes against the person,A20 Assault and related offences,44
 2015,Yarriambiack,A Crimes against the person,A30 Sexual offences,13
 2015,Yarriambiack,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -4887,8 +4887,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Brimbank,B Property and deception offences,B30 Burglary/Break and enter,"1,536"
 2014,Brimbank,B Property and deception offences,B40 Theft,"3,873"
 2014,Brimbank,B Property and deception offences,B50 Deception,121
-2014,Brimbank,D Public order and security offences,D30 Public nuisance offences,4
-2014,Brimbank,E Justice procedures offences,E10 Justice procedures,5
+2014,Brimbank,C Other offences,D30 Public nuisance offences,4
+2014,Brimbank,C Other offences,E10 Justice procedures,5
 2014,Buloke,A Crimes against the person,A20 Assault and related offences,20
 2014,Buloke,A Crimes against the person,A30 Sexual offences,6
 2014,Buloke,B Property and deception offences,B20 Property damage,21
@@ -4930,7 +4930,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Casey,B Property and deception offences,B30 Burglary/Break and enter,"1,036"
 2014,Casey,B Property and deception offences,B40 Theft,"3,121"
 2014,Casey,B Property and deception offences,B50 Deception,128
-2014,Casey,D Public order and security offences,D30 Public nuisance offences,4
+2014,Casey,C Other offences,D30 Public nuisance offences,4
 2014,Central Goldfields,A Crimes against the person,A20 Assault and related offences,134
 2014,Central Goldfields,A Crimes against the person,A30 Sexual offences,27
 2014,Central Goldfields,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",22
@@ -4990,7 +4990,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Frankston,B Property and deception offences,B30 Burglary/Break and enter,652
 2014,Frankston,B Property and deception offences,B40 Theft,"2,385"
 2014,Frankston,B Property and deception offences,B50 Deception,76
-2014,Frankston,D Public order and security offences,D30 Public nuisance offences,16
+2014,Frankston,C Other offences,D30 Public nuisance offences,16
 2014,Gannawarra,A Crimes against the person,A20 Assault and related offences,67
 2014,Gannawarra,A Crimes against the person,A30 Sexual offences,11
 2014,Gannawarra,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",6
@@ -5036,7 +5036,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Greater Bendigo,B Property and deception offences,B30 Burglary/Break and enter,393
 2014,Greater Bendigo,B Property and deception offences,B40 Theft,"1,202"
 2014,Greater Bendigo,B Property and deception offences,B50 Deception,24
-2014,Greater Bendigo,D Public order and security offences,D30 Public nuisance offences,8
+2014,Greater Bendigo,C Other offences,D30 Public nuisance offences,8
 2014,Greater Dandenong,A Crimes against the person,A10 Homicide and related offences,5
 2014,Greater Dandenong,A Crimes against the person,A20 Assault and related offences,"1,450"
 2014,Greater Dandenong,A Crimes against the person,A30 Sexual offences,195
@@ -5073,7 +5073,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Greater Shepparton,B Property and deception offences,B30 Burglary/Break and enter,451
 2014,Greater Shepparton,B Property and deception offences,B40 Theft,946
 2014,Greater Shepparton,B Property and deception offences,B50 Deception,29
-2014,Greater Shepparton,D Public order and security offences,D30 Public nuisance offences,4
+2014,Greater Shepparton,C Other offences,D30 Public nuisance offences,4
 2014,Hepburn,A Crimes against the person,A20 Assault and related offences,58
 2014,Hepburn,A Crimes against the person,A30 Sexual offences,13
 2014,Hepburn,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",13
@@ -5121,7 +5121,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Hume,B Property and deception offences,B30 Burglary/Break and enter,"1,221"
 2014,Hume,B Property and deception offences,B40 Theft,"3,148"
 2014,Hume,B Property and deception offences,B50 Deception,113
-2014,Hume,D Public order and security offences,D30 Public nuisance offences,4
+2014,Hume,C Other offences,D30 Public nuisance offences,4
 2014,Indigo,A Crimes against the person,A20 Assault and related offences,38
 2014,Indigo,A Crimes against the person,A30 Sexual offences,19
 2014,Indigo,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",17
@@ -5221,7 +5221,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Maroondah,B Property and deception offences,B30 Burglary/Break and enter,431
 2014,Maroondah,B Property and deception offences,B40 Theft,"1,340"
 2014,Maroondah,B Property and deception offences,B50 Deception,36
-2014,Maroondah,D Public order and security offences,D30 Public nuisance offences,4
+2014,Maroondah,C Other offences,D30 Public nuisance offences,4
 2014,Melbourne,A Crimes against the person,A10 Homicide and related offences,10
 2014,Melbourne,A Crimes against the person,A20 Assault and related offences,"2,103"
 2014,Melbourne,A Crimes against the person,A30 Sexual offences,235
@@ -5235,9 +5235,9 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,646
 2014,Melbourne,B Property and deception offences,B40 Theft,"6,122"
 2014,Melbourne,B Property and deception offences,B50 Deception,496
-2014,Melbourne,D Public order and security offences,D20 Disorderly and offensive conduct,6
-2014,Melbourne,D Public order and security offences,D30 Public nuisance offences,5
-2014,Melbourne,E Justice procedures offences,E10 Justice procedures,5
+2014,Melbourne,C Other offences,D20 Disorderly and offensive conduct,6
+2014,Melbourne,C Other offences,D30 Public nuisance offences,5
+2014,Melbourne,C Other offences,E10 Justice procedures,5
 2014,Melton,A Crimes against the person,A10 Homicide and related offences,7
 2014,Melton,A Crimes against the person,A20 Assault and related offences,775
 2014,Melton,A Crimes against the person,A30 Sexual offences,82
@@ -5261,7 +5261,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Mildura,B Property and deception offences,B30 Burglary/Break and enter,575
 2014,Mildura,B Property and deception offences,B40 Theft,969
 2014,Mildura,B Property and deception offences,B50 Deception,48
-2014,Mildura,D Public order and security offences,D30 Public nuisance offences,7
+2014,Mildura,C Other offences,D30 Public nuisance offences,7
 2014,Mitchell,A Crimes against the person,A20 Assault and related offences,374
 2014,Mitchell,A Crimes against the person,A30 Sexual offences,59
 2014,Mitchell,A Crimes against the person,A40 Abduction and related offences,4
@@ -5305,7 +5305,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Moonee Valley,B Property and deception offences,B30 Burglary/Break and enter,676
 2014,Moonee Valley,B Property and deception offences,B40 Theft,"1,871"
 2014,Moonee Valley,B Property and deception offences,B50 Deception,52
-2014,Moonee Valley,D Public order and security offences,D30 Public nuisance offences,5
+2014,Moonee Valley,C Other offences,D30 Public nuisance offences,5
 2014,Moorabool,A Crimes against the person,A20 Assault and related offences,131
 2014,Moorabool,A Crimes against the person,A30 Sexual offences,43
 2014,Moorabool,A Crimes against the person,A40 Abduction and related offences,4
@@ -5340,7 +5340,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Mornington Peninsula,B Property and deception offences,B30 Burglary/Break and enter,834
 2014,Mornington Peninsula,B Property and deception offences,B40 Theft,"2,100"
 2014,Mornington Peninsula,B Property and deception offences,B50 Deception,56
-2014,Mornington Peninsula,D Public order and security offences,D30 Public nuisance offences,6
+2014,Mornington Peninsula,C Other offences,D30 Public nuisance offences,6
 2014,Mount Alexander,A Crimes against the person,A20 Assault and related offences,68
 2014,Mount Alexander,A Crimes against the person,A30 Sexual offences,14
 2014,Mount Alexander,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -5400,7 +5400,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Port Phillip,B Property and deception offences,B30 Burglary/Break and enter,790
 2014,Port Phillip,B Property and deception offences,B40 Theft,"3,001"
 2014,Port Phillip,B Property and deception offences,B50 Deception,111
-2014,Port Phillip,D Public order and security offences,D30 Public nuisance offences,6
+2014,Port Phillip,C Other offences,D30 Public nuisance offences,6
 2014,Pyrenees,A Crimes against the person,A20 Assault and related offences,36
 2014,Pyrenees,A Crimes against the person,A30 Sexual offences,5
 2014,Pyrenees,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",8
@@ -5428,7 +5428,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Southern Grampians,B Property and deception offences,B30 Burglary/Break and enter,41
 2014,Southern Grampians,B Property and deception offences,B40 Theft,100
 2014,Southern Grampians,B Property and deception offences,B50 Deception,6
-2014,Southern Grampians,D Public order and security offences,D30 Public nuisance offences,4
+2014,Southern Grampians,C Other offences,D30 Public nuisance offences,4
 2014,Stonnington,A Crimes against the person,A20 Assault and related offences,477
 2014,Stonnington,A Crimes against the person,A30 Sexual offences,80
 2014,Stonnington,A Crimes against the person,A40 Abduction and related offences,4
@@ -5556,7 +5556,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Wyndham,B Property and deception offences,B30 Burglary/Break and enter,911
 2014,Wyndham,B Property and deception offences,B40 Theft,"2,653"
 2014,Wyndham,B Property and deception offences,B50 Deception,69
-2014,Wyndham,D Public order and security offences,D30 Public nuisance offences,6
+2014,Wyndham,C Other offences,D30 Public nuisance offences,6
 2014,Yarra,A Crimes against the person,A20 Assault and related offences,629
 2014,Yarra,A Crimes against the person,A30 Sexual offences,79
 2014,Yarra,A Crimes against the person,A40 Abduction and related offences,4
@@ -5568,7 +5568,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Yarra,B Property and deception offences,B30 Burglary/Break and enter,823
 2014,Yarra,B Property and deception offences,B40 Theft,"3,376"
 2014,Yarra,B Property and deception offences,B50 Deception,109
-2014,Yarra,D Public order and security offences,D30 Public nuisance offences,4
+2014,Yarra,C Other offences,D30 Public nuisance offences,4
 2014,Yarra Ranges,A Crimes against the person,A10 Homicide and related offences,8
 2014,Yarra Ranges,A Crimes against the person,A20 Assault and related offences,672
 2014,Yarra Ranges,A Crimes against the person,A30 Sexual offences,173
@@ -5581,8 +5581,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2014,Yarra Ranges,B Property and deception offences,B30 Burglary/Break and enter,445
 2014,Yarra Ranges,B Property and deception offences,B40 Theft,"1,164"
 2014,Yarra Ranges,B Property and deception offences,B50 Deception,33
-2014,Yarra Ranges,D Public order and security offences,D30 Public nuisance offences,10
-2014,Yarra Ranges,F Other offences,F90 Miscellaneous offences,4
+2014,Yarra Ranges,C Other offences,D30 Public nuisance offences,10
+2014,Yarra Ranges,C Other offences,F90 Miscellaneous offences,4
 2014,Yarriambiack,A Crimes against the person,A20 Assault and related offences,35
 2014,Yarriambiack,A Crimes against the person,A30 Sexual offences,10
 2014,Yarriambiack,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -5691,7 +5691,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Brimbank,B Property and deception offences,B30 Burglary/Break and enter,"1,655"
 2013,Brimbank,B Property and deception offences,B40 Theft,"4,163"
 2013,Brimbank,B Property and deception offences,B50 Deception,172
-2013,Brimbank,D Public order and security offences,D30 Public nuisance offences,4
+2013,Brimbank,C Other offences,D30 Public nuisance offences,4
 2013,Buloke,A Crimes against the person,A20 Assault and related offences,32
 2013,Buloke,A Crimes against the person,A30 Sexual offences,7
 2013,Buloke,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -5793,7 +5793,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Frankston,B Property and deception offences,B30 Burglary/Break and enter,800
 2013,Frankston,B Property and deception offences,B40 Theft,"2,139"
 2013,Frankston,B Property and deception offences,B50 Deception,103
-2013,Frankston,D Public order and security offences,D30 Public nuisance offences,5
+2013,Frankston,C Other offences,D30 Public nuisance offences,5
 2013,Gannawarra,A Crimes against the person,A20 Assault and related offences,54
 2013,Gannawarra,A Crimes against the person,A30 Sexual offences,12
 2013,Gannawarra,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",8
@@ -5839,7 +5839,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Greater Bendigo,B Property and deception offences,B30 Burglary/Break and enter,320
 2013,Greater Bendigo,B Property and deception offences,B40 Theft,"1,112"
 2013,Greater Bendigo,B Property and deception offences,B50 Deception,29
-2013,Greater Bendigo,D Public order and security offences,D30 Public nuisance offences,9
+2013,Greater Bendigo,C Other offences,D30 Public nuisance offences,9
 2013,Greater Dandenong,A Crimes against the person,A20 Assault and related offences,"1,434"
 2013,Greater Dandenong,A Crimes against the person,A30 Sexual offences,205
 2013,Greater Dandenong,A Crimes against the person,A40 Abduction and related offences,20
@@ -5875,7 +5875,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Greater Shepparton,B Property and deception offences,B30 Burglary/Break and enter,452
 2013,Greater Shepparton,B Property and deception offences,B40 Theft,777
 2013,Greater Shepparton,B Property and deception offences,B50 Deception,21
-2013,Greater Shepparton,D Public order and security offences,D30 Public nuisance offences,14
+2013,Greater Shepparton,C Other offences,D30 Public nuisance offences,14
 2013,Hepburn,A Crimes against the person,A20 Assault and related offences,73
 2013,Hepburn,A Crimes against the person,A30 Sexual offences,6
 2013,Hepburn,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",15
@@ -6037,8 +6037,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,701
 2013,Melbourne,B Property and deception offences,B40 Theft,"6,571"
 2013,Melbourne,B Property and deception offences,B50 Deception,582
-2013,Melbourne,C Drug offences,C90 Other drug offences,5
-2013,Melbourne,D Public order and security offences,D20 Disorderly and offensive conduct,8
+2013,Melbourne,C Other offences,C90 Other drug offences,5
+2013,Melbourne,C Other offences,D20 Disorderly and offensive conduct,8
 2013,Melton,A Crimes against the person,A20 Assault and related offences,686
 2013,Melton,A Crimes against the person,A30 Sexual offences,98
 2013,Melton,A Crimes against the person,A40 Abduction and related offences,11
@@ -6124,7 +6124,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Moreland,B Property and deception offences,B30 Burglary/Break and enter,"1,039"
 2013,Moreland,B Property and deception offences,B40 Theft,"3,252"
 2013,Moreland,B Property and deception offences,B50 Deception,134
-2013,Moreland,D Public order and security offences,D30 Public nuisance offences,4
+2013,Moreland,C Other offences,D30 Public nuisance offences,4
 2013,Mornington Peninsula,A Crimes against the person,A10 Homicide and related offences,4
 2013,Mornington Peninsula,A Crimes against the person,A20 Assault and related offences,807
 2013,Mornington Peninsula,A Crimes against the person,A30 Sexual offences,153
@@ -6192,8 +6192,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Port Phillip,B Property and deception offences,B30 Burglary/Break and enter,753
 2013,Port Phillip,B Property and deception offences,B40 Theft,"3,011"
 2013,Port Phillip,B Property and deception offences,B50 Deception,134
-2013,Port Phillip,C Drug offences,C90 Other drug offences,5
-2013,Port Phillip,D Public order and security offences,D30 Public nuisance offences,5
+2013,Port Phillip,C Other offences,C90 Other drug offences,5
+2013,Port Phillip,C Other offences,D30 Public nuisance offences,5
 2013,Pyrenees,A Crimes against the person,A20 Assault and related offences,40
 2013,Pyrenees,A Crimes against the person,A30 Sexual offences,15
 2013,Pyrenees,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",7
@@ -6373,7 +6373,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2013,Yarra Ranges,B Property and deception offences,B30 Burglary/Break and enter,492
 2013,Yarra Ranges,B Property and deception offences,B40 Theft,"1,126"
 2013,Yarra Ranges,B Property and deception offences,B50 Deception,43
-2013,Yarra Ranges,D Public order and security offences,D30 Public nuisance offences,6
+2013,Yarra Ranges,C Other offences,D30 Public nuisance offences,6
 2013,Yarriambiack,A Crimes against the person,A20 Assault and related offences,53
 2013,Yarriambiack,A Crimes against the person,A30 Sexual offences,5
 2013,Yarriambiack,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",12
@@ -6408,7 +6408,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Ballarat,B Property and deception offences,B30 Burglary/Break and enter,736
 2012,Ballarat,B Property and deception offences,B40 Theft,"1,950"
 2012,Ballarat,B Property and deception offences,B50 Deception,37
-2012,Ballarat,D Public order and security offences,D20 Disorderly and offensive conduct,6
+2012,Ballarat,C Other offences,D20 Disorderly and offensive conduct,6
 2012,Banyule,A Crimes against the person,A20 Assault and related offences,590
 2012,Banyule,A Crimes against the person,A30 Sexual offences,86
 2012,Banyule,A Crimes against the person,A40 Abduction and related offences,9
@@ -6420,7 +6420,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Banyule,B Property and deception offences,B30 Burglary/Break and enter,721
 2012,Banyule,B Property and deception offences,B40 Theft,"1,440"
 2012,Banyule,B Property and deception offences,B50 Deception,48
-2012,Banyule,D Public order and security offences,D30 Public nuisance offences,5
+2012,Banyule,C Other offences,D30 Public nuisance offences,5
 2012,Bass Coast,A Crimes against the person,A20 Assault and related offences,249
 2012,Bass Coast,A Crimes against the person,A30 Sexual offences,44
 2012,Bass Coast,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",39
@@ -6482,7 +6482,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Brimbank,B Property and deception offences,B30 Burglary/Break and enter,"1,900"
 2012,Brimbank,B Property and deception offences,B40 Theft,"4,415"
 2012,Brimbank,B Property and deception offences,B50 Deception,99
-2012,Brimbank,D Public order and security offences,D20 Disorderly and offensive conduct,11
+2012,Brimbank,C Other offences,D20 Disorderly and offensive conduct,11
 2012,Buloke,A Crimes against the person,A20 Assault and related offences,21
 2012,Buloke,A Crimes against the person,A30 Sexual offences,8
 2012,Buloke,B Property and deception offences,B20 Property damage,14
@@ -6524,7 +6524,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Casey,B Property and deception offences,B30 Burglary/Break and enter,"1,035"
 2012,Casey,B Property and deception offences,B40 Theft,"2,704"
 2012,Casey,B Property and deception offences,B50 Deception,111
-2012,Casey,D Public order and security offences,D20 Disorderly and offensive conduct,4
+2012,Casey,C Other offences,D20 Disorderly and offensive conduct,4
 2012,Central Goldfields,A Crimes against the person,A20 Assault and related offences,91
 2012,Central Goldfields,A Crimes against the person,A30 Sexual offences,13
 2012,Central Goldfields,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",19
@@ -6561,8 +6561,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Darebin,B Property and deception offences,B30 Burglary/Break and enter,"1,302"
 2012,Darebin,B Property and deception offences,B40 Theft,"3,381"
 2012,Darebin,B Property and deception offences,B50 Deception,108
-2012,Darebin,D Public order and security offences,D20 Disorderly and offensive conduct,5
-2012,Darebin,E Justice procedures offences,E10 Justice procedures,4
+2012,Darebin,C Other offences,D20 Disorderly and offensive conduct,5
+2012,Darebin,C Other offences,E10 Justice procedures,4
 2012,East Gippsland,A Crimes against the person,A20 Assault and related offences,380
 2012,East Gippsland,A Crimes against the person,A30 Sexual offences,51
 2012,East Gippsland,A Crimes against the person,A50 Robbery,4
@@ -6631,7 +6631,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Greater Bendigo,B Property and deception offences,B30 Burglary/Break and enter,366
 2012,Greater Bendigo,B Property and deception offences,B40 Theft,"1,269"
 2012,Greater Bendigo,B Property and deception offences,B50 Deception,18
-2012,Greater Bendigo,D Public order and security offences,D30 Public nuisance offences,13
+2012,Greater Bendigo,C Other offences,D30 Public nuisance offences,13
 2012,Greater Dandenong,A Crimes against the person,A10 Homicide and related offences,11
 2012,Greater Dandenong,A Crimes against the person,A20 Assault and related offences,"1,262"
 2012,Greater Dandenong,A Crimes against the person,A30 Sexual offences,196
@@ -6657,8 +6657,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Greater Geelong,B Property and deception offences,B30 Burglary/Break and enter,"1,176"
 2012,Greater Geelong,B Property and deception offences,B40 Theft,"3,834"
 2012,Greater Geelong,B Property and deception offences,B50 Deception,73
-2012,Greater Geelong,D Public order and security offences,D20 Disorderly and offensive conduct,5
-2012,Greater Geelong,D Public order and security offences,D30 Public nuisance offences,5
+2012,Greater Geelong,C Other offences,D20 Disorderly and offensive conduct,5
+2012,Greater Geelong,C Other offences,D30 Public nuisance offences,5
 2012,Greater Shepparton,A Crimes against the person,A20 Assault and related offences,481
 2012,Greater Shepparton,A Crimes against the person,A30 Sexual offences,113
 2012,Greater Shepparton,A Crimes against the person,A40 Abduction and related offences,7
@@ -6771,7 +6771,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Macedon Ranges,B Property and deception offences,B30 Burglary/Break and enter,125
 2012,Macedon Ranges,B Property and deception offences,B40 Theft,265
 2012,Macedon Ranges,B Property and deception offences,B50 Deception,11
-2012,Macedon Ranges,D Public order and security offences,D30 Public nuisance offences,4
+2012,Macedon Ranges,C Other offences,D30 Public nuisance offences,4
 2012,Manningham,A Crimes against the person,A20 Assault and related offences,211
 2012,Manningham,A Crimes against the person,A30 Sexual offences,54
 2012,Manningham,A Crimes against the person,A40 Abduction and related offences,4
@@ -6824,9 +6824,9 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,740
 2012,Melbourne,B Property and deception offences,B40 Theft,"6,325"
 2012,Melbourne,B Property and deception offences,B50 Deception,434
-2012,Melbourne,D Public order and security offences,D20 Disorderly and offensive conduct,12
-2012,Melbourne,D Public order and security offences,D30 Public nuisance offences,4
-2012,Melbourne,E Justice procedures offences,E10 Justice procedures,5
+2012,Melbourne,C Other offences,D20 Disorderly and offensive conduct,12
+2012,Melbourne,C Other offences,D30 Public nuisance offences,4
+2012,Melbourne,C Other offences,E10 Justice procedures,5
 2012,Melton,A Crimes against the person,A20 Assault and related offences,657
 2012,Melton,A Crimes against the person,A30 Sexual offences,75
 2012,Melton,A Crimes against the person,A40 Abduction and related offences,12
@@ -6849,7 +6849,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Mildura,B Property and deception offences,B30 Burglary/Break and enter,519
 2012,Mildura,B Property and deception offences,B40 Theft,981
 2012,Mildura,B Property and deception offences,B50 Deception,25
-2012,Mildura,D Public order and security offences,D30 Public nuisance offences,5
+2012,Mildura,C Other offences,D30 Public nuisance offences,5
 2012,Mitchell,A Crimes against the person,A10 Homicide and related offences,4
 2012,Mitchell,A Crimes against the person,A20 Assault and related offences,288
 2012,Mitchell,A Crimes against the person,A30 Sexual offences,50
@@ -6882,7 +6882,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Monash,B Property and deception offences,B30 Burglary/Break and enter,850
 2012,Monash,B Property and deception offences,B40 Theft,"1,994"
 2012,Monash,B Property and deception offences,B50 Deception,85
-2012,Monash,D Public order and security offences,D20 Disorderly and offensive conduct,4
+2012,Monash,C Other offences,D20 Disorderly and offensive conduct,4
 2012,Moonee Valley,A Crimes against the person,A20 Assault and related offences,522
 2012,Moonee Valley,A Crimes against the person,A30 Sexual offences,70
 2012,Moonee Valley,A Crimes against the person,A40 Abduction and related offences,6
@@ -6916,7 +6916,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Moreland,B Property and deception offences,B30 Burglary/Break and enter,"1,045"
 2012,Moreland,B Property and deception offences,B40 Theft,"3,492"
 2012,Moreland,B Property and deception offences,B50 Deception,114
-2012,Moreland,D Public order and security offences,D20 Disorderly and offensive conduct,4
+2012,Moreland,C Other offences,D20 Disorderly and offensive conduct,4
 2012,Mornington Peninsula,A Crimes against the person,A10 Homicide and related offences,6
 2012,Mornington Peninsula,A Crimes against the person,A20 Assault and related offences,686
 2012,Mornington Peninsula,A Crimes against the person,A30 Sexual offences,99
@@ -6928,7 +6928,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Mornington Peninsula,B Property and deception offences,B30 Burglary/Break and enter,734
 2012,Mornington Peninsula,B Property and deception offences,B40 Theft,"2,133"
 2012,Mornington Peninsula,B Property and deception offences,B50 Deception,50
-2012,Mornington Peninsula,D Public order and security offences,D30 Public nuisance offences,7
+2012,Mornington Peninsula,C Other offences,D30 Public nuisance offences,7
 2012,Mount Alexander,A Crimes against the person,A20 Assault and related offences,71
 2012,Mount Alexander,A Crimes against the person,A30 Sexual offences,17
 2012,Mount Alexander,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",16
@@ -6983,8 +6983,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Port Phillip,B Property and deception offences,B30 Burglary/Break and enter,680
 2012,Port Phillip,B Property and deception offences,B40 Theft,"2,766"
 2012,Port Phillip,B Property and deception offences,B50 Deception,148
-2012,Port Phillip,D Public order and security offences,D20 Disorderly and offensive conduct,5
-2012,Port Phillip,E Justice procedures offences,E10 Justice procedures,4
+2012,Port Phillip,C Other offences,D20 Disorderly and offensive conduct,5
+2012,Port Phillip,C Other offences,E10 Justice procedures,4
 2012,Pyrenees,A Crimes against the person,A20 Assault and related offences,19
 2012,Pyrenees,A Crimes against the person,A30 Sexual offences,4
 2012,Pyrenees,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",7
@@ -7144,7 +7144,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2012,Yarra,B Property and deception offences,B30 Burglary/Break and enter,770
 2012,Yarra,B Property and deception offences,B40 Theft,"3,237"
 2012,Yarra,B Property and deception offences,B50 Deception,99
-2012,Yarra,D Public order and security offences,D20 Disorderly and offensive conduct,5
+2012,Yarra,C Other offences,D20 Disorderly and offensive conduct,5
 2012,Yarra Ranges,A Crimes against the person,A10 Homicide and related offences,4
 2012,Yarra Ranges,A Crimes against the person,A20 Assault and related offences,487
 2012,Yarra Ranges,A Crimes against the person,A30 Sexual offences,107
@@ -7186,7 +7186,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Ballarat,B Property and deception offences,B30 Burglary/Break and enter,790
 2011,Ballarat,B Property and deception offences,B40 Theft,"2,085"
 2011,Ballarat,B Property and deception offences,B50 Deception,37
-2011,Ballarat,D Public order and security offences,D20 Disorderly and offensive conduct,7
+2011,Ballarat,C Other offences,D20 Disorderly and offensive conduct,7
 2011,Banyule,A Crimes against the person,A20 Assault and related offences,493
 2011,Banyule,A Crimes against the person,A30 Sexual offences,76
 2011,Banyule,A Crimes against the person,A40 Abduction and related offences,11
@@ -7198,7 +7198,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Banyule,B Property and deception offences,B30 Burglary/Break and enter,600
 2011,Banyule,B Property and deception offences,B40 Theft,"1,362"
 2011,Banyule,B Property and deception offences,B50 Deception,45
-2011,Banyule,D Public order and security offences,D30 Public nuisance offences,5
+2011,Banyule,C Other offences,D30 Public nuisance offences,5
 2011,Bass Coast,A Crimes against the person,A20 Assault and related offences,186
 2011,Bass Coast,A Crimes against the person,A30 Sexual offences,32
 2011,Bass Coast,A Crimes against the person,A50 Robbery,7
@@ -7248,7 +7248,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Boroondara,B Property and deception offences,B30 Burglary/Break and enter,883
 2011,Boroondara,B Property and deception offences,B40 Theft,"1,736"
 2011,Boroondara,B Property and deception offences,B50 Deception,59
-2011,Boroondara,D Public order and security offences,D20 Disorderly and offensive conduct,4
+2011,Boroondara,C Other offences,D20 Disorderly and offensive conduct,4
 2011,Brimbank,A Crimes against the person,A10 Homicide and related offences,5
 2011,Brimbank,A Crimes against the person,A20 Assault and related offences,"1,121"
 2011,Brimbank,A Crimes against the person,A30 Sexual offences,115
@@ -7262,7 +7262,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Brimbank,B Property and deception offences,B30 Burglary/Break and enter,"1,709"
 2011,Brimbank,B Property and deception offences,B40 Theft,"4,466"
 2011,Brimbank,B Property and deception offences,B50 Deception,115
-2011,Brimbank,D Public order and security offences,D20 Disorderly and offensive conduct,7
+2011,Brimbank,C Other offences,D20 Disorderly and offensive conduct,7
 2011,Buloke,A Crimes against the person,A20 Assault and related offences,24
 2011,Buloke,A Crimes against the person,A30 Sexual offences,4
 2011,Buloke,B Property and deception offences,B10 Arson,5
@@ -7301,7 +7301,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Casey,B Property and deception offences,B30 Burglary/Break and enter,848
 2011,Casey,B Property and deception offences,B40 Theft,"3,085"
 2011,Casey,B Property and deception offences,B50 Deception,97
-2011,Casey,D Public order and security offences,D30 Public nuisance offences,7
+2011,Casey,C Other offences,D30 Public nuisance offences,7
 2011,Central Goldfields,A Crimes against the person,A20 Assault and related offences,122
 2011,Central Goldfields,A Crimes against the person,A30 Sexual offences,15
 2011,Central Goldfields,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",30
@@ -7340,8 +7340,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Darebin,B Property and deception offences,B30 Burglary/Break and enter,"1,122"
 2011,Darebin,B Property and deception offences,B40 Theft,"2,856"
 2011,Darebin,B Property and deception offences,B50 Deception,90
-2011,Darebin,D Public order and security offences,D20 Disorderly and offensive conduct,4
-2011,Darebin,D Public order and security offences,D30 Public nuisance offences,4
+2011,Darebin,C Other offences,D20 Disorderly and offensive conduct,4
+2011,Darebin,C Other offences,D30 Public nuisance offences,4
 2011,East Gippsland,A Crimes against the person,A20 Assault and related offences,399
 2011,East Gippsland,A Crimes against the person,A30 Sexual offences,29
 2011,East Gippsland,A Crimes against the person,A50 Robbery,8
@@ -7352,7 +7352,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,East Gippsland,B Property and deception offences,B30 Burglary/Break and enter,167
 2011,East Gippsland,B Property and deception offences,B40 Theft,478
 2011,East Gippsland,B Property and deception offences,B50 Deception,16
-2011,East Gippsland,D Public order and security offences,D30 Public nuisance offences,5
+2011,East Gippsland,C Other offences,D30 Public nuisance offences,5
 2011,Frankston,A Crimes against the person,A10 Homicide and related offences,4
 2011,Frankston,A Crimes against the person,A20 Assault and related offences,924
 2011,Frankston,A Crimes against the person,A30 Sexual offences,119
@@ -7365,8 +7365,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Frankston,B Property and deception offences,B30 Burglary/Break and enter,783
 2011,Frankston,B Property and deception offences,B40 Theft,"2,317"
 2011,Frankston,B Property and deception offences,B50 Deception,109
-2011,Frankston,D Public order and security offences,D20 Disorderly and offensive conduct,6
-2011,Frankston,D Public order and security offences,D30 Public nuisance offences,7
+2011,Frankston,C Other offences,D20 Disorderly and offensive conduct,6
+2011,Frankston,C Other offences,D30 Public nuisance offences,7
 2011,Gannawarra,A Crimes against the person,A20 Assault and related offences,62
 2011,Gannawarra,A Crimes against the person,A30 Sexual offences,15
 2011,Gannawarra,A Crimes against the person,A80 Dangerous and negligent acts endangering people,5
@@ -7410,7 +7410,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Greater Bendigo,B Property and deception offences,B30 Burglary/Break and enter,302
 2011,Greater Bendigo,B Property and deception offences,B40 Theft,"1,119"
 2011,Greater Bendigo,B Property and deception offences,B50 Deception,25
-2011,Greater Bendigo,F Other offences,F90 Miscellaneous offences,4
+2011,Greater Bendigo,C Other offences,F90 Miscellaneous offences,4
 2011,Greater Dandenong,A Crimes against the person,A10 Homicide and related offences,5
 2011,Greater Dandenong,A Crimes against the person,A20 Assault and related offences,"1,319"
 2011,Greater Dandenong,A Crimes against the person,A30 Sexual offences,150
@@ -7424,7 +7424,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Greater Dandenong,B Property and deception offences,B30 Burglary/Break and enter,854
 2011,Greater Dandenong,B Property and deception offences,B40 Theft,"2,235"
 2011,Greater Dandenong,B Property and deception offences,B50 Deception,95
-2011,Greater Dandenong,D Public order and security offences,D30 Public nuisance offences,8
+2011,Greater Dandenong,C Other offences,D30 Public nuisance offences,8
 2011,Greater Geelong,A Crimes against the person,A20 Assault and related offences,866
 2011,Greater Geelong,A Crimes against the person,A30 Sexual offences,155
 2011,Greater Geelong,A Crimes against the person,A40 Abduction and related offences,7
@@ -7437,7 +7437,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Greater Geelong,B Property and deception offences,B30 Burglary/Break and enter,"1,292"
 2011,Greater Geelong,B Property and deception offences,B40 Theft,"3,674"
 2011,Greater Geelong,B Property and deception offences,B50 Deception,46
-2011,Greater Geelong,D Public order and security offences,D20 Disorderly and offensive conduct,9
+2011,Greater Geelong,C Other offences,D20 Disorderly and offensive conduct,9
 2011,Greater Shepparton,A Crimes against the person,A10 Homicide and related offences,5
 2011,Greater Shepparton,A Crimes against the person,A20 Assault and related offences,446
 2011,Greater Shepparton,A Crimes against the person,A30 Sexual offences,107
@@ -7494,7 +7494,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Hume,B Property and deception offences,B30 Burglary/Break and enter,952
 2011,Hume,B Property and deception offences,B40 Theft,"3,047"
 2011,Hume,B Property and deception offences,B50 Deception,88
-2011,Hume,D Public order and security offences,D20 Disorderly and offensive conduct,4
+2011,Hume,C Other offences,D20 Disorderly and offensive conduct,4
 2011,Indigo,A Crimes against the person,A20 Assault and related offences,27
 2011,Indigo,A Crimes against the person,A30 Sexual offences,7
 2011,Indigo,B Property and deception offences,B20 Property damage,33
@@ -7535,7 +7535,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Latrobe,B Property and deception offences,B30 Burglary/Break and enter,531
 2011,Latrobe,B Property and deception offences,B40 Theft,"1,358"
 2011,Latrobe,B Property and deception offences,B50 Deception,42
-2011,Latrobe,D Public order and security offences,D20 Disorderly and offensive conduct,5
+2011,Latrobe,C Other offences,D20 Disorderly and offensive conduct,5
 2011,Loddon,A Crimes against the person,A10 Homicide and related offences,4
 2011,Loddon,A Crimes against the person,A20 Assault and related offences,34
 2011,Loddon,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",5
@@ -7590,8 +7590,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Maroondah,B Property and deception offences,B30 Burglary/Break and enter,311
 2011,Maroondah,B Property and deception offences,B40 Theft,"1,141"
 2011,Maroondah,B Property and deception offences,B50 Deception,42
-2011,Maroondah,D Public order and security offences,D20 Disorderly and offensive conduct,5
-2011,Maroondah,D Public order and security offences,D30 Public nuisance offences,5
+2011,Maroondah,C Other offences,D20 Disorderly and offensive conduct,5
+2011,Maroondah,C Other offences,D30 Public nuisance offences,5
 2011,Melbourne,A Crimes against the person,A10 Homicide and related offences,8
 2011,Melbourne,A Crimes against the person,A20 Assault and related offences,"2,041"
 2011,Melbourne,A Crimes against the person,A30 Sexual offences,225
@@ -7605,10 +7605,10 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Melbourne,B Property and deception offences,B30 Burglary/Break and enter,635
 2011,Melbourne,B Property and deception offences,B40 Theft,"7,489"
 2011,Melbourne,B Property and deception offences,B50 Deception,373
-2011,Melbourne,C Drug offences,C90 Other drug offences,5
-2011,Melbourne,D Public order and security offences,D20 Disorderly and offensive conduct,9
-2011,Melbourne,D Public order and security offences,D30 Public nuisance offences,4
-2011,Melbourne,E Justice procedures offences,E10 Justice procedures,7
+2011,Melbourne,C Other offences,C90 Other drug offences,5
+2011,Melbourne,C Other offences,D20 Disorderly and offensive conduct,9
+2011,Melbourne,C Other offences,D30 Public nuisance offences,4
+2011,Melbourne,C Other offences,E10 Justice procedures,7
 2011,Melton,A Crimes against the person,A20 Assault and related offences,495
 2011,Melton,A Crimes against the person,A30 Sexual offences,77
 2011,Melton,A Crimes against the person,A40 Abduction and related offences,9
@@ -7620,7 +7620,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Melton,B Property and deception offences,B30 Burglary/Break and enter,689
 2011,Melton,B Property and deception offences,B40 Theft,"1,601"
 2011,Melton,B Property and deception offences,B50 Deception,52
-2011,Melton,D Public order and security offences,D20 Disorderly and offensive conduct,8
+2011,Melton,C Other offences,D20 Disorderly and offensive conduct,8
 2011,Mildura,A Crimes against the person,A20 Assault and related offences,516
 2011,Mildura,A Crimes against the person,A30 Sexual offences,69
 2011,Mildura,A Crimes against the person,A50 Robbery,16
@@ -7696,7 +7696,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Moreland,B Property and deception offences,B30 Burglary/Break and enter,"1,024"
 2011,Moreland,B Property and deception offences,B40 Theft,"3,303"
 2011,Moreland,B Property and deception offences,B50 Deception,111
-2011,Moreland,D Public order and security offences,D20 Disorderly and offensive conduct,8
+2011,Moreland,C Other offences,D20 Disorderly and offensive conduct,8
 2011,Mornington Peninsula,A Crimes against the person,A20 Assault and related offences,660
 2011,Mornington Peninsula,A Crimes against the person,A30 Sexual offences,97
 2011,Mornington Peninsula,A Crimes against the person,A40 Abduction and related offences,4
@@ -7708,7 +7708,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Mornington Peninsula,B Property and deception offences,B30 Burglary/Break and enter,806
 2011,Mornington Peninsula,B Property and deception offences,B40 Theft,"1,840"
 2011,Mornington Peninsula,B Property and deception offences,B50 Deception,37
-2011,Mornington Peninsula,D Public order and security offences,D20 Disorderly and offensive conduct,5
+2011,Mornington Peninsula,C Other offences,D20 Disorderly and offensive conduct,5
 2011,Mount Alexander,A Crimes against the person,A20 Assault and related offences,87
 2011,Mount Alexander,A Crimes against the person,A30 Sexual offences,16
 2011,Mount Alexander,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",6
@@ -7760,7 +7760,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Port Phillip,B Property and deception offences,B30 Burglary/Break and enter,651
 2011,Port Phillip,B Property and deception offences,B40 Theft,"2,999"
 2011,Port Phillip,B Property and deception offences,B50 Deception,114
-2011,Port Phillip,D Public order and security offences,D20 Disorderly and offensive conduct,6
+2011,Port Phillip,C Other offences,D20 Disorderly and offensive conduct,6
 2011,Pyrenees,A Crimes against the person,A20 Assault and related offences,29
 2011,Pyrenees,A Crimes against the person,A30 Sexual offences,5
 2011,Pyrenees,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",4
@@ -7798,7 +7798,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Stonnington,B Property and deception offences,B30 Burglary/Break and enter,598
 2011,Stonnington,B Property and deception offences,B40 Theft,"2,354"
 2011,Stonnington,B Property and deception offences,B50 Deception,76
-2011,Stonnington,D Public order and security offences,D20 Disorderly and offensive conduct,8
+2011,Stonnington,C Other offences,D20 Disorderly and offensive conduct,8
 2011,Strathbogie,A Crimes against the person,A20 Assault and related offences,32
 2011,Strathbogie,A Crimes against the person,A30 Sexual offences,8
 2011,Strathbogie,A Crimes against the person,"A70 Stalking, harassment and threatening behaviour",7
@@ -7916,8 +7916,8 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Yarra,B Property and deception offences,B30 Burglary/Break and enter,871
 2011,Yarra,B Property and deception offences,B40 Theft,"3,034"
 2011,Yarra,B Property and deception offences,B50 Deception,82
-2011,Yarra,D Public order and security offences,D20 Disorderly and offensive conduct,4
-2011,Yarra,E Justice procedures offences,E10 Justice procedures,4
+2011,Yarra,C Other offences,D20 Disorderly and offensive conduct,4
+2011,Yarra,C Other offences,E10 Justice procedures,4
 2011,Yarra Ranges,A Crimes against the person,A10 Homicide and related offences,4
 2011,Yarra Ranges,A Crimes against the person,A20 Assault and related offences,467
 2011,Yarra Ranges,A Crimes against the person,A30 Sexual offences,83
@@ -7930,7 +7930,7 @@ Year,Local Government Area,Offence Division,Offence Subdivision,Victim Reports
 2011,Yarra Ranges,B Property and deception offences,B30 Burglary/Break and enter,398
 2011,Yarra Ranges,B Property and deception offences,B40 Theft,"1,296"
 2011,Yarra Ranges,B Property and deception offences,B50 Deception,48
-2011,Yarra Ranges,D Public order and security offences,D30 Public nuisance offences,5
+2011,Yarra Ranges,C Other offences,D30 Public nuisance offences,5
 2011,Yarriambiack,A Crimes against the person,A20 Assault and related offences,25
 2011,Yarriambiack,B Property and deception offences,B20 Property damage,32
 2011,Yarriambiack,B Property and deception offences,B30 Burglary/Break and enter,26
