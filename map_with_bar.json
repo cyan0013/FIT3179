@@ -1,0 +1,130 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
+  },
+  "projection": {"type": "equirectangular"},
+  "vconcat": [
+    {
+      "layer": [
+        {
+          "title": "Victim Reports in Victoria by LGA (2020)",
+          "width": 800,
+          "height": 600,
+          "mark": {"type": "square"},
+          "encoding": {
+            "color": {"field": "PoliceRegion", "title": "Police Region"}
+          }
+        },
+        {
+          "data": {
+            "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/VIC_LGA_POLYGON_SHP.topojson",
+            "format": {"type": "topojson", "feature": "VIC_LGA_POLYGON_SHP"}
+          },
+          "transform": [
+            {
+              "lookup": "properties.ABB_NAME",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
+                },
+                "key": "LocalGovernmentArea",
+                "fields": [
+                  "Rateper100,000population",
+                  "LocalGovernmentArea",
+                  "Victim Reports",
+                  "PoliceRegion"
+                ]
+              }
+            }
+          ],
+          "mark": {"type": "geoshape"},
+          "encoding": {
+            "color": {
+              "title": "Rate per 100,000",
+              "field": "Rateper100,000population",
+              "type": "quantitative",
+              "scale": {"domain": [0, 8000]}
+            },
+            "opacity": {
+              "condition": {"selection": "region_highlight", "value": 1},
+              "value": 0.2
+            },
+            "tooltip": [
+              {
+                "field": "LocalGovernmentArea",
+                "type": "nominal",
+                "title": "Local Government Area"
+              },
+              {
+                "field": "Victim Reports",
+                "type": "quantitative",
+                "format": ",",
+                "title": "Number of Reports"
+              },
+              {
+                "field": "Rateper100,000population",
+                "type": "quantitative",
+                "format": ",",
+                "title": "Rate per 100,000"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "layer": [
+        {
+          "title": "Average Number of Reports by LGA (2020)",
+          "selection": {
+            "region_highlight": {
+              "type": "multi",
+              "fields": ["PoliceRegion"],
+              "bind": "legend"
+            }
+          },
+          "width": 920,
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "LocalGovernmentArea",
+              "type": "nominal",
+              "sort": "color",
+              "title": "Local Government Area"
+            },
+            "y": {
+              "aggregate": "mean",
+              "field": "Victim Reports",
+              "type": "quantitative"
+            },
+            "color": {
+              "field": "PoliceRegion",
+              "title": "Police Region",
+              "legend": null
+            },
+            "opacity": {
+              "condition": {"selection": "region_highlight", "value": 1},
+              "value": 0.1
+            }
+          }
+        },
+        {
+          "transform": [{"filter": {"selection": "region_highlight"}}],
+          "mark": "rule",
+          "encoding": {
+            "y": {
+              "aggregate": "mean",
+              "field": "Victim Reports",
+              "type": "quantitative"
+            },
+            "color": {"value": "firebrick"},
+            "size": {"value": 3}
+          }
+        },
+        {"mark": "text"}
+      ]
+    }
+  ],
+  "config": {}
+}
