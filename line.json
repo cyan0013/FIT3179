@@ -32,7 +32,12 @@
       ],
       "mark": "line",
       "encoding": {
-        "x": {"field": "Year", "type": "temporal", "title": "Year"},
+        "x": {
+          "field": "Year",
+          "type": "temporal",
+          "title": "Year",
+          "axis": null
+        },
         "y": {
           "aggregate": "sum",
           "field": "Victim Reports",
@@ -51,6 +56,18 @@
       "layer": [
         {"mark": {"type": "rule", "strokeWidth": 0.5}},
         {
+          "mark": {"type": "circle", "stroke": "white", "strokeWidth": 3},
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal", "axis": null},
+            "y": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "quantitative"
+            },
+            "key": {"field": "Offence Subdivision"}
+          }
+        },
+        {
           "mark": {"type": "circle"},
           "encoding": {
             "x": {"field": "Year", "type": "temporal", "axis": null},
@@ -63,7 +80,33 @@
           }
         },
         {
-          "mark": {"type": "text", "align": "right", "dx": -10},
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -10,
+            "dy": 0,
+            "stroke": "white",
+            "strokeWidth": 4
+          },
+          "encoding": {
+            "x": {"field": "Year", "type": "temporal", "axis": null},
+            "y": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "quantitative"
+            },
+            "key": {"field": "Offence Subdivision"},
+            "text": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "quantitative",
+              "format": ","
+            }
+          }
+        },
+        {
+          "view": {"stroke": "white", "strokeWidth": 10},
+          "mark": {"type": "text", "align": "right", "dx": -10, "dy": 0},
           "encoding": {
             "x": {"field": "Year", "type": "temporal", "axis": null},
             "y": {
