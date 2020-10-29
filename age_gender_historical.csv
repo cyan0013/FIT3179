@@ -1,0 +1,607 @@
+Year,Sex,AgeGroup,OffenceDivision,VictimReports
+2020,Females,00-19,A Crimes against the person,7130
+2020,Females,00-19,B Property and deception offences,2089
+2020,Females,00-19,C Other offences,16
+2020,Females,20-29,A Crimes against the person,9714
+2020,Females,20-29,B Property and deception offences,14834
+2020,Females,20-29,C Other offences,18
+2020,Females,30-39,A Crimes against the person,8334
+2020,Females,30-39,B Property and deception offences,15224
+2020,Females,30-39,C Other offences,28
+2020,Females,40-49,A Crimes against the person,5805
+2020,Females,40-49,B Property and deception offences,12907
+2020,Females,40-49,C Other offences,17
+2020,Females,50-59,A Crimes against the person,3125
+2020,Females,50-59,B Property and deception offences,9847
+2020,Females,50-59,C Other offences,9
+2020,Females,60-69,A Crimes against the person,1241
+2020,Females,60-69,B Property and deception offences,5720
+2020,Females,60-69,C Other offences,4
+2020,Females,70+,A Crimes against the person,787
+2020,Females,70+,B Property and deception offences,4117
+2020,Females,70+,C Other offences,2
+2020,Males,00-19,A Crimes against the person,5934
+2020,Males,00-19,B Property and deception offences,3351
+2020,Males,00-19,C Other offences,9
+2020,Males,20-29,A Crimes against the person,7060
+2020,Males,20-29,B Property and deception offences,20951
+2020,Males,20-29,C Other offences,13
+2020,Males,30-39,A Crimes against the person,6055
+2020,Males,30-39,B Property and deception offences,22639
+2020,Males,30-39,C Other offences,21
+2020,Males,40-49,A Crimes against the person,4711
+2020,Males,40-49,B Property and deception offences,17424
+2020,Males,40-49,C Other offences,7
+2020,Males,50-59,A Crimes against the person,3237
+2020,Males,50-59,B Property and deception offences,14268
+2020,Males,50-59,C Other offences,9
+2020,Males,60-69,A Crimes against the person,1466
+2020,Males,60-69,B Property and deception offences,9201
+2020,Males,60-69,C Other offences,2
+2020,Males,70+,A Crimes against the person,689
+2020,Males,70+,B Property and deception offences,5599
+2020,Males,70+,C Other offences,2
+2019,Females,00-19,A Crimes against the person,7429
+2019,Females,00-19,B Property and deception offences,2130
+2019,Females,00-19,C Other offences,15
+2019,Females,20-29,A Crimes against the person,9582
+2019,Females,20-29,B Property and deception offences,14354
+2019,Females,20-29,C Other offences,24
+2019,Females,30-39,A Crimes against the person,7856
+2019,Females,30-39,B Property and deception offences,13786
+2019,Females,30-39,C Other offences,22
+2019,Females,40-49,A Crimes against the person,5705
+2019,Females,40-49,B Property and deception offences,11813
+2019,Females,40-49,C Other offences,21
+2019,Females,50-59,A Crimes against the person,3061
+2019,Females,50-59,B Property and deception offences,8859
+2019,Females,50-59,C Other offences,6
+2019,Females,60-69,A Crimes against the person,1179
+2019,Females,60-69,B Property and deception offences,5165
+2019,Females,60-69,C Other offences,7
+2019,Females,70+,A Crimes against the person,684
+2019,Females,70+,B Property and deception offences,3480
+2019,Females,70+,C Other offences,2
+2019,Males,00-19,A Crimes against the person,5943
+2019,Males,00-19,B Property and deception offences,3275
+2019,Males,00-19,C Other offences,6
+2019,Males,20-29,A Crimes against the person,6881
+2019,Males,20-29,B Property and deception offences,20187
+2019,Males,20-29,C Other offences,14
+2019,Males,30-39,A Crimes against the person,5854
+2019,Males,30-39,B Property and deception offences,21221
+2019,Males,30-39,C Other offences,10
+2019,Males,40-49,A Crimes against the person,4531
+2019,Males,40-49,B Property and deception offences,16610
+2019,Males,40-49,C Other offences,13
+2019,Males,50-59,A Crimes against the person,3198
+2019,Males,50-59,B Property and deception offences,13450
+2019,Males,50-59,C Other offences,15
+2019,Males,60-69,A Crimes against the person,1363
+2019,Males,60-69,B Property and deception offences,8202
+2019,Males,60-69,C Other offences,6
+2019,Males,70+,A Crimes against the person,586
+2019,Males,70+,B Property and deception offences,4854
+2019,People,00-19,A Crimes against the person,13373
+2019,People,00-19,B Property and deception offences,5406
+2019,People,00-19,C Other offences,21
+2019,People,20-29,A Crimes against the person,16466
+2019,People,20-29,B Property and deception offences,34549
+2019,People,20-29,C Other offences,38
+2019,People,30-39,A Crimes against the person,13713
+2019,People,30-39,B Property and deception offences,35037
+2019,People,30-39,C Other offences,32
+2019,People,40-49,A Crimes against the person,10236
+2019,People,40-49,B Property and deception offences,28448
+2019,People,40-49,C Other offences,34
+2019,People,50-59,A Crimes against the person,6261
+2019,People,50-59,B Property and deception offences,22337
+2019,People,50-59,C Other offences,21
+2019,People,60-69,A Crimes against the person,2543
+2019,People,60-69,B Property and deception offences,13377
+2019,People,60-69,C Other offences,13
+2019,People,70+,A Crimes against the person,1270
+2019,People,70+,B Property and deception offences,8353
+2019,People,70+,C Other offences,2
+2018,Females,00-19,A Crimes against the person,7549
+2018,Females,00-19,B Property and deception offences,2244
+2018,Females,00-19,C Other offences,11
+2018,Females,20-29,A Crimes against the person,8991
+2018,Females,20-29,B Property and deception offences,14937
+2018,Females,20-29,C Other offences,11
+2018,Females,30-39,A Crimes against the person,7521
+2018,Females,30-39,B Property and deception offences,14384
+2018,Females,30-39,C Other offences,17
+2018,Females,40-49,A Crimes against the person,5498
+2018,Females,40-49,B Property and deception offences,12077
+2018,Females,40-49,C Other offences,9
+2018,Females,50-59,A Crimes against the person,2765
+2018,Females,50-59,B Property and deception offences,8900
+2018,Females,50-59,C Other offences,7
+2018,Females,60-69,A Crimes against the person,1010
+2018,Females,60-69,B Property and deception offences,5070
+2018,Females,70+,A Crimes against the person,588
+2018,Females,70+,B Property and deception offences,3328
+2018,Females,70+,C Other offences,2
+2018,Males,00-19,A Crimes against the person,6097
+2018,Males,00-19,B Property and deception offences,3261
+2018,Males,00-19,C Other offences,8
+2018,Males,20-29,A Crimes against the person,6969
+2018,Males,20-29,B Property and deception offences,20436
+2018,Males,20-29,C Other offences,6
+2018,Males,30-39,A Crimes against the person,5450
+2018,Males,30-39,B Property and deception offences,21445
+2018,Males,30-39,C Other offences,10
+2018,Males,40-49,A Crimes against the person,4389
+2018,Males,40-49,B Property and deception offences,17224
+2018,Males,40-49,C Other offences,7
+2018,Males,50-59,A Crimes against the person,3132
+2018,Males,50-59,B Property and deception offences,13473
+2018,Males,50-59,C Other offences,2
+2018,Males,60-69,A Crimes against the person,1351
+2018,Males,60-69,B Property and deception offences,8526
+2018,Males,60-69,C Other offences,4
+2018,Males,70+,A Crimes against the person,571
+2018,Males,70+,B Property and deception offences,4717
+2018,Males,70+,C Other offences,2
+2018,People,00-19,A Crimes against the person,13646
+2018,People,00-19,B Property and deception offences,5505
+2018,People,00-19,C Other offences,19
+2018,People,20-29,A Crimes against the person,15961
+2018,People,20-29,B Property and deception offences,35377
+2018,People,20-29,C Other offences,17
+2018,People,30-39,A Crimes against the person,12972
+2018,People,30-39,B Property and deception offences,35832
+2018,People,30-39,C Other offences,27
+2018,People,40-49,A Crimes against the person,9890
+2018,People,40-49,B Property and deception offences,29330
+2018,People,40-49,C Other offences,16
+2018,People,50-59,A Crimes against the person,5918
+2018,People,50-59,B Property and deception offences,22494
+2018,People,50-59,C Other offences,9
+2018,People,60-69,A Crimes against the person,2369
+2018,People,60-69,B Property and deception offences,13663
+2018,People,60-69,C Other offences,4
+2018,People,70+,A Crimes against the person,1163
+2018,People,70+,B Property and deception offences,8097
+2018,People,70+,C Other offences,4
+2017,Females,00-19,A Crimes against the person,7574
+2017,Females,00-19,B Property and deception offences,2423
+2017,Females,00-19,C Other offences,8
+2017,Females,20-29,A Crimes against the person,8801
+2017,Females,20-29,B Property and deception offences,16638
+2017,Females,20-29,C Other offences,9
+2017,Females,30-39,A Crimes against the person,7282
+2017,Females,30-39,B Property and deception offences,15774
+2017,Females,30-39,C Other offences,5
+2017,Females,40-49,A Crimes against the person,5531
+2017,Females,40-49,B Property and deception offences,13885
+2017,Females,40-49,C Other offences,7
+2017,Females,50-59,A Crimes against the person,2626
+2017,Females,50-59,B Property and deception offences,9896
+2017,Females,50-59,C Other offences,5
+2017,Females,60-69,A Crimes against the person,926
+2017,Females,60-69,B Property and deception offences,5433
+2017,Females,60-69,C Other offences,2
+2017,Females,70+,A Crimes against the person,520
+2017,Females,70+,B Property and deception offences,3549
+2017,Males,00-19,A Crimes against the person,5827
+2017,Males,00-19,B Property and deception offences,3490
+2017,Males,00-19,C Other offences,5
+2017,Males,20-29,A Crimes against the person,6983
+2017,Males,20-29,B Property and deception offences,22737
+2017,Males,20-29,C Other offences,5
+2017,Males,30-39,A Crimes against the person,5885
+2017,Males,30-39,B Property and deception offences,23383
+2017,Males,30-39,C Other offences,8
+2017,Males,40-49,A Crimes against the person,4680
+2017,Males,40-49,B Property and deception offences,19449
+2017,Males,40-49,C Other offences,5
+2017,Males,50-59,A Crimes against the person,2998
+2017,Males,50-59,B Property and deception offences,15079
+2017,Males,50-59,C Other offences,2
+2017,Males,60-69,A Crimes against the person,1291
+2017,Males,60-69,B Property and deception offences,9230
+2017,Males,60-69,C Other offences,2
+2017,Males,70+,A Crimes against the person,527
+2017,Males,70+,B Property and deception offences,5103
+2017,Males,70+,C Other offences,2
+2017,People,00-19,A Crimes against the person,13405
+2017,People,00-19,B Property and deception offences,5916
+2017,People,00-19,C Other offences,13
+2017,People,20-29,A Crimes against the person,15784
+2017,People,20-29,B Property and deception offences,39377
+2017,People,20-29,C Other offences,14
+2017,People,30-39,A Crimes against the person,13167
+2017,People,30-39,B Property and deception offences,39162
+2017,People,30-39,C Other offences,13
+2017,People,40-49,A Crimes against the person,10217
+2017,People,40-49,B Property and deception offences,33373
+2017,People,40-49,C Other offences,12
+2017,People,50-59,A Crimes against the person,5637
+2017,People,50-59,B Property and deception offences,25131
+2017,People,50-59,C Other offences,7
+2017,People,60-69,A Crimes against the person,2222
+2017,People,60-69,B Property and deception offences,14752
+2017,People,60-69,C Other offences,5
+2017,People,70+,A Crimes against the person,1056
+2017,People,70+,B Property and deception offences,8719
+2017,People,70+,C Other offences,2
+2016,Females,00-19,A Crimes against the person,7075
+2016,Females,00-19,B Property and deception offences,2610
+2016,Females,00-19,C Other offences,17
+2016,Females,20-29,A Crimes against the person,8637
+2016,Females,20-29,B Property and deception offences,16568
+2016,Females,20-29,C Other offences,26
+2016,Females,30-39,A Crimes against the person,6694
+2016,Females,30-39,B Property and deception offences,15342
+2016,Females,30-39,C Other offences,45
+2016,Females,40-49,A Crimes against the person,5191
+2016,Females,40-49,B Property and deception offences,13883
+2016,Females,40-49,C Other offences,30
+2016,Females,50-59,A Crimes against the person,2520
+2016,Females,50-59,B Property and deception offences,9861
+2016,Females,50-59,C Other offences,20
+2016,Females,60-69,A Crimes against the person,937
+2016,Females,60-69,B Property and deception offences,5487
+2016,Females,60-69,C Other offences,10
+2016,Females,70+,A Crimes against the person,471
+2016,Females,70+,B Property and deception offences,3426
+2016,Females,70+,C Other offences,4
+2016,Males,00-19,A Crimes against the person,5546
+2016,Males,00-19,B Property and deception offences,3429
+2016,Males,00-19,C Other offences,11
+2016,Males,20-29,A Crimes against the person,6343
+2016,Males,20-29,B Property and deception offences,22711
+2016,Males,20-29,C Other offences,24
+2016,Males,30-39,A Crimes against the person,5260
+2016,Males,30-39,B Property and deception offences,23689
+2016,Males,30-39,C Other offences,22
+2016,Males,40-49,A Crimes against the person,4433
+2016,Males,40-49,B Property and deception offences,19775
+2016,Males,40-49,C Other offences,37
+2016,Males,50-59,A Crimes against the person,2761
+2016,Males,50-59,B Property and deception offences,15231
+2016,Males,50-59,C Other offences,25
+2016,Males,60-69,A Crimes against the person,1144
+2016,Males,60-69,B Property and deception offences,9513
+2016,Males,60-69,C Other offences,11
+2016,Males,70+,A Crimes against the person,438
+2016,Males,70+,B Property and deception offences,4940
+2016,Males,70+,C Other offences,9
+2016,People,00-19,A Crimes against the person,12622
+2016,People,00-19,B Property and deception offences,6041
+2016,People,00-19,C Other offences,28
+2016,People,20-29,A Crimes against the person,14981
+2016,People,20-29,B Property and deception offences,39281
+2016,People,20-29,C Other offences,50
+2016,People,30-39,A Crimes against the person,11954
+2016,People,30-39,B Property and deception offences,39035
+2016,People,30-39,C Other offences,67
+2016,People,40-49,A Crimes against the person,9630
+2016,People,40-49,B Property and deception offences,33684
+2016,People,40-49,C Other offences,67
+2016,People,50-59,A Crimes against the person,5289
+2016,People,50-59,B Property and deception offences,25179
+2016,People,50-59,C Other offences,45
+2016,People,60-69,A Crimes against the person,2085
+2016,People,60-69,B Property and deception offences,15047
+2016,People,60-69,C Other offences,21
+2016,People,70+,A Crimes against the person,910
+2016,People,70+,B Property and deception offences,8405
+2016,People,70+,C Other offences,13
+2015,Females,00-19,A Crimes against the person,5939
+2015,Females,00-19,B Property and deception offences,2461
+2015,Females,00-19,C Other offences,14
+2015,Females,20-29,A Crimes against the person,7629
+2015,Females,20-29,B Property and deception offences,15068
+2015,Females,20-29,C Other offences,33
+2015,Females,30-39,A Crimes against the person,6270
+2015,Females,30-39,B Property and deception offences,13670
+2015,Females,30-39,C Other offences,19
+2015,Females,40-49,A Crimes against the person,4718
+2015,Females,40-49,B Property and deception offences,12363
+2015,Females,40-49,C Other offences,24
+2015,Females,50-59,A Crimes against the person,2160
+2015,Females,50-59,B Property and deception offences,8624
+2015,Females,50-59,C Other offences,15
+2015,Females,60-69,A Crimes against the person,818
+2015,Females,60-69,B Property and deception offences,4745
+2015,Females,60-69,C Other offences,7
+2015,Females,70+,A Crimes against the person,361
+2015,Females,70+,B Property and deception offences,3189
+2015,Females,70+,C Other offences,5
+2015,Males,00-19,A Crimes against the person,4666
+2015,Males,00-19,B Property and deception offences,3200
+2015,Males,00-19,C Other offences,10
+2015,Males,20-29,A Crimes against the person,6179
+2015,Males,20-29,B Property and deception offences,20276
+2015,Males,20-29,C Other offences,30
+2015,Males,30-39,A Crimes against the person,4731
+2015,Males,30-39,B Property and deception offences,20049
+2015,Males,30-39,C Other offences,31
+2015,Males,40-49,A Crimes against the person,4156
+2015,Males,40-49,B Property and deception offences,17411
+2015,Males,40-49,C Other offences,30
+2015,Males,50-59,A Crimes against the person,2504
+2015,Males,50-59,B Property and deception offences,13370
+2015,Males,50-59,C Other offences,22
+2015,Males,60-69,A Crimes against the person,1038
+2015,Males,60-69,B Property and deception offences,8207
+2015,Males,60-69,C Other offences,15
+2015,Males,70+,A Crimes against the person,392
+2015,Males,70+,B Property and deception offences,4229
+2015,Males,70+,C Other offences,7
+2015,People,00-19,A Crimes against the person,10606
+2015,People,00-19,B Property and deception offences,5661
+2015,People,00-19,C Other offences,24
+2015,People,20-29,A Crimes against the person,13811
+2015,People,20-29,B Property and deception offences,35348
+2015,People,20-29,C Other offences,63
+2015,People,30-39,A Crimes against the person,11002
+2015,People,30-39,B Property and deception offences,33726
+2015,People,30-39,C Other offences,50
+2015,People,40-49,A Crimes against the person,8875
+2015,People,40-49,B Property and deception offences,29777
+2015,People,40-49,C Other offences,54
+2015,People,50-59,A Crimes against the person,4665
+2015,People,50-59,B Property and deception offences,22000
+2015,People,50-59,C Other offences,37
+2015,People,60-69,A Crimes against the person,1857
+2015,People,60-69,B Property and deception offences,12953
+2015,People,60-69,C Other offences,22
+2015,People,70+,A Crimes against the person,753
+2015,People,70+,B Property and deception offences,7420
+2015,People,70+,C Other offences,12
+2014,Females,00-19,A Crimes against the person,6194
+2014,Females,00-19,B Property and deception offences,2765
+2014,Females,00-19,C Other offences,13
+2014,Females,20-29,A Crimes against the person,7449
+2014,Females,20-29,B Property and deception offences,15367
+2014,Females,20-29,C Other offences,33
+2014,Females,30-39,A Crimes against the person,5881
+2014,Females,30-39,B Property and deception offences,13593
+2014,Females,30-39,C Other offences,39
+2014,Females,40-49,A Crimes against the person,4638
+2014,Females,40-49,B Property and deception offences,12819
+2014,Females,40-49,C Other offences,30
+2014,Females,50-59,A Crimes against the person,2054
+2014,Females,50-59,B Property and deception offences,8746
+2014,Females,50-59,C Other offences,20
+2014,Females,60-69,A Crimes against the person,706
+2014,Females,60-69,B Property and deception offences,4683
+2014,Females,60-69,C Other offences,4
+2014,Females,70+,A Crimes against the person,339
+2014,Females,70+,B Property and deception offences,3158
+2014,Females,70+,C Other offences,11
+2014,Males,00-19,A Crimes against the person,4839
+2014,Males,00-19,B Property and deception offences,3356
+2014,Males,00-19,C Other offences,18
+2014,Males,20-29,A Crimes against the person,6404
+2014,Males,20-29,B Property and deception offences,19885
+2014,Males,20-29,C Other offences,31
+2014,Males,30-39,A Crimes against the person,4828
+2014,Males,30-39,B Property and deception offences,19306
+2014,Males,30-39,C Other offences,35
+2014,Males,40-49,A Crimes against the person,4097
+2014,Males,40-49,B Property and deception offences,17186
+2014,Males,40-49,C Other offences,37
+2014,Males,50-59,A Crimes against the person,2357
+2014,Males,50-59,B Property and deception offences,13108
+2014,Males,50-59,C Other offences,17
+2014,Males,60-69,A Crimes against the person,900
+2014,Males,60-69,B Property and deception offences,7957
+2014,Males,60-69,C Other offences,15
+2014,Males,70+,A Crimes against the person,341
+2014,Males,70+,B Property and deception offences,4042
+2014,Males,70+,C Other offences,5
+2014,People,00-19,A Crimes against the person,11039
+2014,People,00-19,B Property and deception offences,6121
+2014,People,00-19,C Other offences,31
+2014,People,20-29,A Crimes against the person,13855
+2014,People,20-29,B Property and deception offences,35262
+2014,People,20-29,C Other offences,64
+2014,People,30-39,A Crimes against the person,10711
+2014,People,30-39,B Property and deception offences,32905
+2014,People,30-39,C Other offences,74
+2014,People,40-49,A Crimes against the person,8735
+2014,People,40-49,B Property and deception offences,30006
+2014,People,40-49,C Other offences,67
+2014,People,50-59,A Crimes against the person,4411
+2014,People,50-59,B Property and deception offences,21856
+2014,People,50-59,C Other offences,37
+2014,People,60-69,A Crimes against the person,1606
+2014,People,60-69,B Property and deception offences,12640
+2014,People,60-69,C Other offences,19
+2014,People,70+,A Crimes against the person,680
+2014,People,70+,B Property and deception offences,7201
+2014,People,70+,C Other offences,16
+2013,Females,00-19,A Crimes against the person,6175
+2013,Females,00-19,B Property and deception offences,3125
+2013,Females,00-19,C Other offences,15
+2013,Females,20-29,A Crimes against the person,7306
+2013,Females,20-29,B Property and deception offences,15438
+2013,Females,20-29,C Other offences,33
+2013,Females,30-39,A Crimes against the person,5734
+2013,Females,30-39,B Property and deception offences,13335
+2013,Females,30-39,C Other offences,30
+2013,Females,40-49,A Crimes against the person,4273
+2013,Females,40-49,B Property and deception offences,12175
+2013,Females,40-49,C Other offences,20
+2013,Females,50-59,A Crimes against the person,1862
+2013,Females,50-59,B Property and deception offences,8122
+2013,Females,50-59,C Other offences,17
+2013,Females,60-69,A Crimes against the person,634
+2013,Females,60-69,B Property and deception offences,4428
+2013,Females,60-69,C Other offences,6
+2013,Females,70+,A Crimes against the person,334
+2013,Females,70+,B Property and deception offences,3050
+2013,Females,70+,C Other offences,8
+2013,Males,00-19,A Crimes against the person,5023
+2013,Males,00-19,B Property and deception offences,3600
+2013,Males,00-19,C Other offences,5
+2013,Males,20-29,A Crimes against the person,6699
+2013,Males,20-29,B Property and deception offences,19173
+2013,Males,20-29,C Other offences,26
+2013,Males,30-39,A Crimes against the person,4871
+2013,Males,30-39,B Property and deception offences,18247
+2013,Males,30-39,C Other offences,24
+2013,Males,40-49,A Crimes against the person,4035
+2013,Males,40-49,B Property and deception offences,16739
+2013,Males,40-49,C Other offences,32
+2013,Males,50-59,A Crimes against the person,2193
+2013,Males,50-59,B Property and deception offences,12655
+2013,Males,50-59,C Other offences,15
+2013,Males,60-69,A Crimes against the person,892
+2013,Males,60-69,B Property and deception offences,7525
+2013,Males,60-69,C Other offences,7
+2013,Males,70+,A Crimes against the person,304
+2013,Males,70+,B Property and deception offences,3878
+2013,Males,70+,C Other offences,5
+2013,People,00-19,A Crimes against the person,11204
+2013,People,00-19,B Property and deception offences,6730
+2013,People,00-19,C Other offences,20
+2013,People,20-29,A Crimes against the person,14024
+2013,People,20-29,B Property and deception offences,34690
+2013,People,20-29,C Other offences,59
+2013,People,30-39,A Crimes against the person,10607
+2013,People,30-39,B Property and deception offences,31654
+2013,People,30-39,C Other offences,54
+2013,People,40-49,A Crimes against the person,8323
+2013,People,40-49,B Property and deception offences,29001
+2013,People,40-49,C Other offences,53
+2013,People,50-59,A Crimes against the person,4068
+2013,People,50-59,B Property and deception offences,20867
+2013,People,50-59,C Other offences,32
+2013,People,60-69,A Crimes against the person,1529
+2013,People,60-69,B Property and deception offences,12009
+2013,People,60-69,C Other offences,13
+2013,People,70+,A Crimes against the person,641
+2013,People,70+,B Property and deception offences,6979
+2013,People,70+,C Other offences,13
+2012,Females,00-19,A Crimes against the person,5711
+2012,Females,00-19,B Property and deception offences,3420
+2012,Females,00-19,C Other offences,34
+2012,Females,20-29,A Crimes against the person,6558
+2012,Females,20-29,B Property and deception offences,16051
+2012,Females,20-29,C Other offences,49
+2012,Females,30-39,A Crimes against the person,4921
+2012,Females,30-39,B Property and deception offences,13789
+2012,Females,30-39,C Other offences,36
+2012,Females,40-49,A Crimes against the person,3635
+2012,Females,40-49,B Property and deception offences,12608
+2012,Females,40-49,C Other offences,28
+2012,Females,50-59,A Crimes against the person,1478
+2012,Females,50-59,B Property and deception offences,8475
+2012,Females,50-59,C Other offences,17
+2012,Females,60-69,A Crimes against the person,526
+2012,Females,60-69,B Property and deception offences,4436
+2012,Females,60-69,C Other offences,6
+2012,Females,70+,A Crimes against the person,296
+2012,Females,70+,B Property and deception offences,3040
+2012,Females,70+,C Other offences,5
+2012,Males,00-19,A Crimes against the person,4873
+2012,Males,00-19,B Property and deception offences,3858
+2012,Males,00-19,C Other offences,15
+2012,Males,20-29,A Crimes against the person,6527
+2012,Males,20-29,B Property and deception offences,20337
+2012,Males,20-29,C Other offences,40
+2012,Males,30-39,A Crimes against the person,4446
+2012,Males,30-39,B Property and deception offences,19137
+2012,Males,30-39,C Other offences,28
+2012,Males,40-49,A Crimes against the person,3583
+2012,Males,40-49,B Property and deception offences,17378
+2012,Males,40-49,C Other offences,31
+2012,Males,50-59,A Crimes against the person,1853
+2012,Males,50-59,B Property and deception offences,12818
+2012,Males,50-59,C Other offences,18
+2012,Males,60-69,A Crimes against the person,770
+2012,Males,60-69,B Property and deception offences,7532
+2012,Males,60-69,C Other offences,19
+2012,Males,70+,A Crimes against the person,266
+2012,Males,70+,B Property and deception offences,3867
+2012,Males,70+,C Other offences,4
+2012,People,00-19,A Crimes against the person,10606
+2012,People,00-19,B Property and deception offences,7292
+2012,People,00-19,C Other offences,49
+2012,People,20-29,A Crimes against the person,13119
+2012,People,20-29,B Property and deception offences,36542
+2012,People,20-29,C Other offences,89
+2012,People,30-39,A Crimes against the person,9382
+2012,People,30-39,B Property and deception offences,33078
+2012,People,30-39,C Other offences,65
+2012,People,40-49,A Crimes against the person,7243
+2012,People,40-49,B Property and deception offences,30189
+2012,People,40-49,C Other offences,59
+2012,People,50-59,A Crimes against the person,3345
+2012,People,50-59,B Property and deception offences,21475
+2012,People,50-59,C Other offences,35
+2012,People,60-69,A Crimes against the person,1303
+2012,People,60-69,B Property and deception offences,12092
+2012,People,60-69,C Other offences,25
+2012,People,70+,A Crimes against the person,570
+2012,People,70+,B Property and deception offences,6998
+2012,People,70+,C Other offences,9
+2011,Females,00-19,A Crimes against the person,4859
+2011,Females,00-19,B Property and deception offences,3487
+2011,Females,00-19,C Other offences,46
+2011,Females,20-29,A Crimes against the person,5282
+2011,Females,20-29,B Property and deception offences,15959
+2011,Females,20-29,C Other offences,56
+2011,Females,30-39,A Crimes against the person,4050
+2011,Females,30-39,B Property and deception offences,13351
+2011,Females,30-39,C Other offences,47
+2011,Females,40-49,A Crimes against the person,2958
+2011,Females,40-49,B Property and deception offences,12248
+2011,Females,40-49,C Other offences,42
+2011,Females,50-59,A Crimes against the person,1197
+2011,Females,50-59,B Property and deception offences,7917
+2011,Females,50-59,C Other offences,23
+2011,Females,60-69,A Crimes against the person,445
+2011,Females,60-69,B Property and deception offences,4107
+2011,Females,60-69,C Other offences,13
+2011,Females,70+,A Crimes against the person,275
+2011,Females,70+,B Property and deception offences,2900
+2011,Females,70+,C Other offences,8
+2011,Males,00-19,A Crimes against the person,4458
+2011,Males,00-19,B Property and deception offences,4272
+2011,Males,00-19,C Other offences,27
+2011,Males,20-29,A Crimes against the person,6340
+2011,Males,20-29,B Property and deception offences,20410
+2011,Males,20-29,C Other offences,32
+2011,Males,30-39,A Crimes against the person,4153
+2011,Males,30-39,B Property and deception offences,18293
+2011,Males,30-39,C Other offences,47
+2011,Males,40-49,A Crimes against the person,3230
+2011,Males,40-49,B Property and deception offences,16546
+2011,Males,40-49,C Other offences,49
+2011,Males,50-59,A Crimes against the person,1703
+2011,Males,50-59,B Property and deception offences,12209
+2011,Males,50-59,C Other offences,16
+2011,Males,60-69,A Crimes against the person,616
+2011,Males,60-69,B Property and deception offences,6851
+2011,Males,60-69,C Other offences,10
+2011,Males,70+,A Crimes against the person,253
+2011,Males,70+,B Property and deception offences,3581
+2011,Males,70+,C Other offences,5
+2011,People,00-19,A Crimes against the person,9350
+2011,People,00-19,B Property and deception offences,7775
+2011,People,00-19,C Other offences,73
+2011,People,20-29,A Crimes against the person,11658
+2011,People,20-29,B Property and deception offences,36535
+2011,People,20-29,C Other offences,90
+2011,People,30-39,A Crimes against the person,8225
+2011,People,30-39,B Property and deception offences,31794
+2011,People,30-39,C Other offences,94
+2011,People,40-49,A Crimes against the person,6212
+2011,People,40-49,B Property and deception offences,29009
+2011,People,40-49,C Other offences,92
+2011,People,50-59,A Crimes against the person,2916
+2011,People,50-59,B Property and deception offences,20305
+2011,People,50-59,C Other offences,41
+2011,People,60-69,A Crimes against the person,1073
+2011,People,60-69,B Property and deception offences,11079
+2011,People,60-69,C Other offences,23
+2011,People,70+,A Crimes against the person,536
+2011,People,70+,B Property and deception offences,6583
+2011,People,70+,C Other offences,13
