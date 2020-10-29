@@ -31,12 +31,7 @@
       ],
       "mark": "line",
       "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "temporal",
-          "axis": null,
-          "title": "Year"
-        },
+        "x": {"field": "Year", "type": "temporal", "title": "Year"},
         "y": {
           "aggregate": "sum",
           "field": "Victim Reports",
@@ -88,7 +83,7 @@
           "mark": {"type": "text", "align": "center", "fontWeight": 100},
           "encoding": {
             "text": {"field": "Year", "timeUnit": "year"},
-            "y": {"value": 507}
+            "y": {"value": 510}
           }
         }
       ]

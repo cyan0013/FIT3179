@@ -19,8 +19,8 @@
         ],
         "labels": [
           "Show All Offences",
-          "Crimes Against the Person",
-          "Property and Deception",
+          "A: Crimes Against the Person",
+          "B: Property and Deception",
           "Other Offences"
         ],
         "name": "Offence Selection"
@@ -69,6 +69,32 @@
       }
     },
     {
+      "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
+      "view": {"stroke": null},
+      "mark": {"type": "text", "align": "left"},
+      "encoding": {
+        "y": {
+          "field": "Age Group",
+          "title": null,
+          "axis": null,
+          "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "title": null,
+          "axis": null,
+          "scale": {"domain": [0, 30000]}
+        },
+        "key": {"field": "Age Group"},
+        "text": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "type": "ordinal"
+        }
+      }
+    },
+    {
       "width": 35,
       "view": {"stroke": null},
       "mark": {"type": "text", "align": "center"},
@@ -111,6 +137,33 @@
           },
           {"field": "Age Group", "type": "ordinal"}
         ]
+      }
+    },
+    {
+      "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
+      "width": 0,
+      "view": {"stroke": null},
+      "mark": {"type": "text", "align": "left"},
+      "encoding": {
+        "y": {
+          "field": "Age Group",
+          "title": null,
+          "axis": null,
+          "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "title": null,
+          "axis": null,
+          "scale": {"domain": [0, 30000]}
+        },
+        "key": {"field": "Age Group"},
+        "text": {
+          "aggregate": "sum",
+          "field": "Victim Reports",
+          "type": "ordinal"
+        }
       }
     }
   ],
