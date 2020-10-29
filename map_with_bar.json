@@ -9,11 +9,18 @@
       "layer": [
         {
           "title": "Victim Reports in Victoria by LGA (2020)",
+          "selection": {
+            "region_highlight": {
+              "type": "multi",
+              "fields": ["PoliceRegion"],
+              "bind": "legend"
+            }
+          },
           "width": 800,
           "height": 600,
           "mark": {"type": "square"},
           "encoding": {
-            "color": {"field": "PoliceRegion", "title": "Police Region"}
+            "color": {"field": "PoliceRegion", "title": "Select Police Region:"}
           }
         },
         {
@@ -76,14 +83,7 @@
     {
       "layer": [
         {
-          "title": "Average Number of Reports by LGA (2020)",
-          "selection": {
-            "region_highlight": {
-              "type": "multi",
-              "fields": ["PoliceRegion"],
-              "bind": "legend"
-            }
-          },
+          "title": "Average Reports by LGA (2020)",
           "width": 920,
           "mark": "bar",
           "encoding": {
