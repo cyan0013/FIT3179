@@ -105,7 +105,6 @@
           }
         },
         {
-          "view": {"stroke": "white", "strokeWidth": 10},
           "mark": {"type": "text", "align": "right", "dx": -10, "dy": 0},
           "encoding": {
             "x": {"field": "Year", "type": "temporal", "axis": null},
