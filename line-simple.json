@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+  "data": {
+    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/reportall_2.csv"
+  },
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal"},
+    "y": {
+      "aggregate": "sum",
+      "field": "Victim Reports",
+      "type": "quantitative"
+    },
+    "color": {
+      "condition": {
+        "selection": "hover",
+        "field": "Offence Subdivision",
+        "type": "nominal"
+      },
+      "value": "grey"
+    },
+    "opacity": {"condition": {"selection": "hover", "value": 1}, "value": 0.2}
+  },
+  "layer": [
+    {
+      "selection": {
+        "index": {
+          "type": "single",
+          "on": "mouseover",
+          "encodings": ["x"],
+          "nearest": true,
+          "init": {"x": {"year": 2011}}
+        }
+      },
+      "mark": "rule",
+      "encoding": {
+        "x": {"field": "Year", "type": "temporal"},
+        "opacity": {"value": 0}
+      }
+    },
+    {
+      "description": "transparent layer to make it easier to trigger selection",
+      "selection": {
+        "hover": {
+          "type": "single",
+          "on": "click",
+          "empty": "all",
+          "fields": ["Offence Subdivision"]
+        }
+      },
+      "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+    },
+    {"mark": "line"}
+  ],
+  "config": {"view": {"stroke": null}}
+}
