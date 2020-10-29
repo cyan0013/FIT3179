@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/reportall_2.csv"
   },
-  "width": 650,
+  "width": 800,
   "height": 500,
   "title": "Trends in Offences Reported (2011 - 2020)",
   "layer": [
@@ -44,7 +44,11 @@
           "type": "quantitative",
           "title": "Number of Victim Reports"
         },
-        "color": {"field": "Offence Subdivision", "type": "nominal"}
+        "color": {
+          "field": "Offence Subdivision",
+          "type": "nominal",
+          "legend": {"orient": "bottom"}
+        }
       }
     },
     {
