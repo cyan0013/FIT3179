@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
+    "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/lga_historical.csv"
   },
   "projection": {"type": "equirectangular"},
   "vconcat": [
@@ -33,7 +33,7 @@
               "lookup": "properties.ABB_NAME",
               "from": {
                 "data": {
-                  "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
+                  "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/lga_historical.csv"
                 },
                 "key": "LocalGovernmentArea",
                 "fields": [
@@ -41,7 +41,8 @@
                   "LocalGovernmentArea",
                   "Victim Reports",
                   "PoliceRegion"
-                ]
+                ],
+                "transform": {"filter": "datum.Year == 2020"}
               }
             }
           ],
@@ -83,7 +84,7 @@
     {
       "layer": [
         {
-          "title": "Average Reports by LGA (2020)",
+          "title": "Average Number of Reports by LGA between 2011-2020)",
           "width": 920,
           "mark": "bar",
           "encoding": {
@@ -91,12 +92,14 @@
               "field": "LocalGovernmentArea",
               "type": "nominal",
               "sort": "color",
-              "title": "Local Government Area"
+              "title": "Local Government Area",
+              "axis": {"labelAngle": -45, "labelColor": "grey"}
             },
             "y": {
               "aggregate": "mean",
               "field": "Victim Reports",
-              "type": "quantitative"
+              "type": "quantitative",
+              "title": "Average /number of Victim Reports"
             },
             "color": {
               "field": "PoliceRegion",
