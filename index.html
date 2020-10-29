@@ -6,24 +6,37 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-  
+
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="styles.css" media="all">
-  
+
 </head>
 <body>
 <h1> At a Glance: The Prevalence of Victim Reporting in Victoria</h1>
 
 <h2> Reporting Locations in Victoria </h1>
 <div id="chloropleth"></div>
+<p> This map shows the rate of victimisation in Victoria and
+how this is impacted by region. Visually most areas look to have around a rate 2,000 to 4,000 reports per 100,000
+people. The exceptions are Melbourne (North West), Mildura (Western) and Latrobe (Eastern).
+Melbourne has both the highest rate of victimisation(7.27%) and highest number of reports (13,638), making it
+the riskiest area in Victoria.
+ </p>
+<p> Zoomable map for detailed analysis </p>
   <div id="zoom"></div>
 
 <h2> Reporter Demographic  </h1>
 <div id="pyramid"></div>
+<p> Overall, it seems men and women are equal in their reporting in 2020,
+however, women are more likely to report crimes against them physically,
+while men report property and deception offences. There are no other significant offences </p>
 
 <h2> Types of Offences Reported  </h1>
 <div id="line"></div>
-  
+<p> Upon further examination, we found the top 5 offences were: assault, property
+  damage, burglary, theft and sexual offences. Theft has consistenly been the most reported,
+and has risen since 2019. Assault has also steadily risen past burglary and property offences. </p>
+
 <script type="text/javascript">
   var vis1 = "https://cyan0013.github.io/FIT3179/map_with_bar.json";
   vegaEmbed('#chloropleth', vis1).then(function(result) {
@@ -34,17 +47,17 @@
   vegaEmbed('#pyramid', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-  
+
   var vis2 = "https://cyan0013.github.io/FIT3179/line.json";
   vegaEmbed('#line', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
-  
+
   var vis2 = "https://cyan0013.github.io/FIT3179/map_zoom.json";
   vegaEmbed('#zoom', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
-  
+
 </body>
 </html>
