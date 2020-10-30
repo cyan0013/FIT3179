@@ -96,7 +96,8 @@
               "field": "LocalGovernmentArea",
               "type": "nominal",
               "sort": "color",
-              "title": "Local Government Area"
+              "title": "Local Government Area",
+              "axis": {"labels": false}
             },
             "y": {
               "aggregate": "mean",
@@ -109,6 +110,25 @@
               "scale": {},
               "legend": null
             },
+            "tooltip": [
+              {
+                "field": "LocalGovernmentArea",
+                "type": "nominal",
+                "title": "Local Government Area"
+              },
+              {
+                "field": "Victim Reports",
+                "type": "quantitative",
+                "format": ",",
+                "title": "Number of Reports"
+              },
+              {
+                "field": "Rateper100,000population",
+                "type": "quantitative",
+                "format": ",",
+                "title": "Rate per 100,000"
+              }
+            ],
             "opacity": {
               "condition": {"selection": "region_highlight", "value": 1},
               "value": 0.1
@@ -128,7 +148,19 @@
             "size": {"value": 2}
           }
         },
-        {"mark": "text"}
+        {
+          "mark": {"type": "text", "align": "left"},
+          "encoding": {
+            "aggregate": "mean",
+            "field": "Victim Reports",
+            "type": "quantitative"
+          },
+          "text": {
+            "aggregate": "mean",
+            "field": "Victim Reports",
+            "type": "quantitative"
+          }
+        }
       ]
     }
   ],

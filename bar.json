@@ -50,9 +50,9 @@
               "sort": "descending"
             },
             "color": {
-              "field": "Offence Division",
+              "field": "Gender",
               "type": "nominal",
-              "scale": {"range": ["#bcbddc", "#9ecae1", "pink"]},
+              "scale": {"range": ["#9ecae1", "#bcbddc", "pink"]},
               "legend": null
             },
             "tooltip": [
