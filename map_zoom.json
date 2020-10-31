@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "background": "white",
   "padding": 5,
-  "width": 800,
-  "height": 600,
+  "width": 500,
+  "height": 500,
   "autosize": "none",
   "title": {
     "text": "Victim Reports in Victoria by LGA (2020)",
@@ -126,7 +126,7 @@
     {"name": "ty", "update": "height/2"},
     {
       "name": "scale",
-      "value": 5000,
+      "value": 10000,
       "on": [
         {
           "events": {"type": "wheel", "consume": true},
