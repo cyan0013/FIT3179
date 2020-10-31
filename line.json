@@ -46,7 +46,7 @@
         "color": {
           "field": "Offence Subdivision",
           "type": "nominal",
-          "legend": {"orient": "bottom"}
+          "legend": {"orient": "right"}
         }
       }
     },

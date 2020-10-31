@@ -37,8 +37,7 @@
     {
       "layer": [
         {
-          "width": 400,
-          "height": 300,
+          "width": "container",
           "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
           "title": "Female",
           "mark": "bar",
@@ -118,8 +117,7 @@
     {
       "layer": [
         {
-          "width": 400,
-          "height": 300,
+          "width": "container",
           "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
           "title": "Male",
           "mark": "bar",
