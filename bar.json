@@ -69,6 +69,39 @@
         },
         {
           "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "dx": -5,
+            "stroke": "white",
+            "strokeWidth": 5
+          },
+          "encoding": {
+            "y": {
+              "field": "Age Group",
+              "title": null,
+              "axis": null,
+              "sort": "descending"
+            },
+            "x": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "title": "Victim Reports ",
+              "axis": {"format": "s"},
+              "scale": {"domain": [0, 35000]}
+            },
+            "color": {"field": "Gender", "type": "nominal"},
+            "key": {"field": "Age Group"},
+            "text": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "ordinal",
+              "format": ","
+            }
+          }
+        },
+        {
+          "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
           "mark": {"type": "text", "align": "right", "dx": -5},
           "encoding": {
             "y": {
@@ -84,6 +117,7 @@
               "axis": {"format": "s"},
               "scale": {"domain": [0, 35000]}
             },
+            "color": {"field": "Gender", "type": "nominal"},
             "key": {"field": "Age Group"},
             "text": {
               "aggregate": "sum",
@@ -140,6 +174,39 @@
               },
               {"field": "Age Group", "type": "ordinal"}
             ]
+          }
+        },
+        {
+          "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": 5,
+            "stroke": "white",
+            "strokeWidth": 5
+          },
+          "encoding": {
+            "y": {
+              "field": "Age Group",
+              "title": null,
+              "axis": null,
+              "sort": "descending"
+            },
+            "x": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "title": "Victim Reports ",
+              "axis": {"format": "s"},
+              "scale": {"domain": [0, 35000]}
+            },
+            "color": {"field": "Gender", "type": "nominal"},
+            "key": {"field": "Age Group"},
+            "text": {
+              "aggregate": "sum",
+              "field": "Victim Reports",
+              "type": "ordinal",
+              "format": ","
+            }
           }
         },
         {
