@@ -37,11 +37,13 @@
       width: auto;
       margin-right: 20px;
     }
-    .vis-container-centre{
-      margin-left:50%;
-      transform: translateX(-50%);
-      width: 50%;
-      overflow: hidden;
+    .vis-container-py{
+      width: auto;
+      position: absolute;
+      right:35px;
+    }
+    .vis-container-zoom{
+      padding-left: 124px;
     }
     .description h2, h1{
       margin-top:0px;
@@ -96,7 +98,7 @@
 
         <div class="pure-u-2-3">
           <div class="pure-u-1-3">
-            <div id="zoom"  class="vis-container"></div>
+            <div id="zoom"  class="vis-container-zoom"></div>
           </div>
         </div>
 
@@ -128,7 +130,7 @@
       </div>
 
       <div class="pure-u-2-3">
-        <div id="pyramid"  class="vis-container"></div>
+        <div id="pyramid"  class="vis-container-py"></div>
       </div>
 
 
