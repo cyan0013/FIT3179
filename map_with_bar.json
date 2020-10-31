@@ -16,6 +16,7 @@
             }
           },
   "width": "container",
+          "height": 400,
           "mark": {"type": "square"},
           "encoding": {
             "color": {
