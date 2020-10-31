@@ -15,19 +15,19 @@
               "bind": "legend"
             }
           },
-  "width": "container",
+          "width": 450,
           "height": 400,
           "mark": {"type": "square"},
           "encoding": {
             "color": {
               "field": "PoliceRegion",
               "title": "Select Police Region:",
-              "legend": {"orient": "bottom", "labelFontSize": 15}
+              "legend": {"orient": "bottom", "labelFontSize": 12}
             }
           }
         },
         {
-          "title": "Victim Reports in Victoria by Police Region and LGA (2020)",
+          "title": "Rate of Victim Reports in Victoria by LGA per 100,000 Population (2020)",
           "data": {
             "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/VIC_LGA_POLYGON_SHP.topojson",
             "format": {"type": "topojson", "feature": "VIC_LGA_POLYGON_SHP"}
@@ -52,11 +52,11 @@
           "mark": {"type": "geoshape"},
           "encoding": {
             "color": {
-              "title": "Rate per 100,000",
+              "title": "Rate",
               "field": "Rateper100,000population",
               "type": "quantitative",
               "scale": {"domain": [0, 8000]},
-              "legend": {"orient": "right", "gradientLength": 380}
+              "legend": {"orient": "right", "gradientLength": 386}
             },
             "opacity": {
               "condition": {"selection": "region_highlight", "value": 1},
@@ -89,7 +89,7 @@
       "layer": [
         {
           "title": "Average Reports by LGA (2020)",
-  "width": "container",
+          "width": 510,
           "mark": "bar",
           "encoding": {
             "x": {

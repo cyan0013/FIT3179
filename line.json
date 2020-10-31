@@ -3,7 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/reportall_2.csv"
   },
-  "width": "container",
+  "width": 400,
+  "height": 250,
   "title": "Trends in Offences Reported (2011 - 2020)",
   "layer": [
     {
@@ -41,12 +42,18 @@
           "aggregate": "sum",
           "field": "Victim Reports",
           "type": "quantitative",
-          "title": "Number of Victim Reports"
+          "title": "Number of Victim Reports",
+          "scale": {"domain": [0, 120000]}
         },
         "color": {
           "field": "Offence Subdivision",
           "type": "nominal",
-          "legend": {"orient": "right"}
+          "sort": "-y",
+          "legend": {
+            "orient": "right",
+            "labelFontSize": 12,
+            "symbolStrokeWidth": 3
+          }
         }
       }
     },
@@ -129,7 +136,7 @@
           "mark": {"type": "text", "align": "center", "fontWeight": 100},
           "encoding": {
             "text": {"field": "Year", "timeUnit": "year"},
-            "y": {"value": 510}
+            "y": {"value": 257}
           }
         }
       ]
