@@ -89,7 +89,7 @@
       "layer": [
         {
           "title": "Average Reports by LGA (2020)",
-          "width": 815,
+          "width": 715,
           "mark": "bar",
           "encoding": {
             "x": {
