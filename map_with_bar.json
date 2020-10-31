@@ -15,7 +15,7 @@
               "bind": "legend"
             }
           },
-          "width": 655,
+          "width": 652,
           "height": 300,
           "mark": {"type": "square"},
           "encoding": {
