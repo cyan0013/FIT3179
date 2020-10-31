@@ -15,8 +15,8 @@
               "bind": "legend"
             }
           },
-          "width": 550,
-          "height": 250,
+          "width": 750,
+          "height": 300,
           "mark": {"type": "square"},
           "encoding": {
             "color": {
@@ -56,7 +56,7 @@
               "field": "Rateper100,000population",
               "type": "quantitative",
               "scale": {"domain": [0, 8000]},
-              "legend": {"orient": "right", "gradientLength": 238}
+              "legend": {"orient": "right", "gradientLength": 288}
             },
             "opacity": {
               "condition": {"selection": "region_highlight", "value": 1},
@@ -89,7 +89,7 @@
       "layer": [
         {
           "title": "Average Reports by LGA (2020)",
-          "width": 615,
+          "width": 815,
           "mark": "bar",
           "encoding": {
             "x": {
