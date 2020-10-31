@@ -37,7 +37,7 @@
     {
       "layer": [
         {
-          "width": "container",
+          "width": 250,
           "transform": [{"filter": {"field": "Gender", "equal": "Female"}}],
           "title": "Female",
           "mark": "bar",
@@ -96,7 +96,7 @@
         {
           "width": 35,
           "view": {"stroke": null},
-          "mark": {"type": "text", "align": "center", "dx": 230},
+          "mark": {"type": "text", "align": "center", "dx": 155},
           "encoding": {
             "y": {
               "field": "Age Group",
@@ -117,7 +117,7 @@
     {
       "layer": [
         {
-          "width": "container",
+          "width": 250,
           "transform": [{"filter": {"field": "Gender", "equal": "Male"}}],
           "title": "Male",
           "mark": "bar",
