@@ -3,8 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/reportall_2.csv"
   },
-  "width": 800,
-  "height": 500,
+  "width": "container",
   "title": "Trends in Offences Reported (2011 - 2020)",
   "layer": [
     {
