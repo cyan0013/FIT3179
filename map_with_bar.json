@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/cyan0013/FIT3179/master/data2020.csv"
   },
-  "projection": {"type": "equirectangular"},
+  "projection": {"type": "conicEqualArea"},
   "vconcat": [
     {
       "layer": [
