@@ -49,7 +49,7 @@
           "field": "Offence Subdivision",
           "type": "nominal",
           "scale": {
-            "range": ["teal", "skyblue", "#fa9fb5", "darkgrey", "orange"]
+            "range": ["teal", "#fa9fb5", "skyblue", "darkgrey", "orange"]
           },
           "sort": "-y",
           "legend": {
