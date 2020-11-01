@@ -3,7 +3,7 @@
   "background": "white",
   "padding": 5,
   "width": 400,
-  "height": 400,
+  "height": 300,
   "autosize": "none",
   "title": {
     "text": "Victim Reports in Victoria by LGA (2020)",
@@ -126,7 +126,7 @@
     {"name": "ty", "update": "height/2"},
     {
       "name": "scale",
-      "value": 10000,
+      "value": 8000,
       "on": [
         {
           "events": {"type": "wheel", "consume": true},
